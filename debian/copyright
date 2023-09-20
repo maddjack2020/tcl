@@ -1,0 +1,4439 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: tcl
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .github/workflows/linux-build.yml
+           .github/workflows/mac-build.yml
+           .github/workflows/win-build.yml
+           .travis.yml
+           ChangeLog.1999
+           ChangeLog.2000
+           ChangeLog.2001
+           ChangeLog.2002
+           ChangeLog.2003
+           ChangeLog.2004
+           ChangeLog.2005
+           ChangeLog.2007
+           ChangeLog.2008
+           README.md
+           changes
+           compat/README
+           compat/opendir.c
+           compat/zlib/CMakeLists.txt
+           compat/zlib/FAQ
+           compat/zlib/INDEX
+           compat/zlib/Makefile
+           compat/zlib/amiga/Makefile.sas
+           compat/zlib/configure
+           compat/zlib/contrib/README.contrib
+           compat/zlib/contrib/ada/zlib.gpr
+           compat/zlib/contrib/blast/Makefile
+           compat/zlib/contrib/blast/README
+           compat/zlib/contrib/blast/test.pk
+           compat/zlib/contrib/blast/test.txt
+           compat/zlib/contrib/delphi/ZLib.pas
+           compat/zlib/contrib/delphi/ZLibConst.pas
+           compat/zlib/contrib/delphi/readme.txt
+           compat/zlib/contrib/delphi/zlibd32.mak
+           compat/zlib/contrib/dotzlib/DotZLib.build
+           compat/zlib/contrib/dotzlib/DotZLib.chm
+           compat/zlib/contrib/dotzlib/DotZLib.sln
+           compat/zlib/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+           compat/zlib/contrib/gcc_gvmat64/gvmat64.S
+           compat/zlib/contrib/infback9/README
+           compat/zlib/contrib/infback9/inffix9.h
+           compat/zlib/contrib/iostream/test.cpp
+           compat/zlib/contrib/iostream/zfstream.cpp
+           compat/zlib/contrib/iostream/zfstream.h
+           compat/zlib/contrib/iostream2/zstream_test.cpp
+           compat/zlib/contrib/iostream3/README
+           compat/zlib/contrib/iostream3/TODO
+           compat/zlib/contrib/iostream3/test.cc
+           compat/zlib/contrib/iostream3/zfstream.cc
+           compat/zlib/contrib/iostream3/zfstream.h
+           compat/zlib/contrib/minizip/Makefile
+           compat/zlib/contrib/minizip/Makefile.am
+           compat/zlib/contrib/minizip/MiniZip64_Changes.txt
+           compat/zlib/contrib/minizip/configure.ac
+           compat/zlib/contrib/minizip/make_vms.com
+           compat/zlib/contrib/minizip/miniunzip.1
+           compat/zlib/contrib/minizip/minizip.1
+           compat/zlib/contrib/minizip/minizip.pc.in
+           compat/zlib/contrib/minizip/mztools.c
+           compat/zlib/contrib/minizip/mztools.h
+           compat/zlib/contrib/pascal/example.pas
+           compat/zlib/contrib/pascal/zlibd32.mak
+           compat/zlib/contrib/pascal/zlibpas.pas
+           compat/zlib/contrib/puff/Makefile
+           compat/zlib/contrib/puff/README
+           compat/zlib/contrib/puff/zeros.raw
+           compat/zlib/contrib/testzlib/testzlib.c
+           compat/zlib/contrib/testzlib/testzlib.txt
+           compat/zlib/contrib/untgz/Makefile
+           compat/zlib/contrib/untgz/Makefile.msc
+           compat/zlib/contrib/untgz/untgz.c
+           compat/zlib/contrib/vstudio/readme.txt
+           compat/zlib/contrib/vstudio/vc10/miniunz.vcxproj
+           compat/zlib/contrib/vstudio/vc10/miniunz.vcxproj.filters
+           compat/zlib/contrib/vstudio/vc10/minizip.vcxproj
+           compat/zlib/contrib/vstudio/vc10/minizip.vcxproj.filters
+           compat/zlib/contrib/vstudio/vc10/testzlib.vcxproj
+           compat/zlib/contrib/vstudio/vc10/testzlib.vcxproj.filters
+           compat/zlib/contrib/vstudio/vc10/testzlibdll.vcxproj
+           compat/zlib/contrib/vstudio/vc10/testzlibdll.vcxproj.filters
+           compat/zlib/contrib/vstudio/vc10/zlib.rc
+           compat/zlib/contrib/vstudio/vc10/zlibstat.vcxproj
+           compat/zlib/contrib/vstudio/vc10/zlibstat.vcxproj.filters
+           compat/zlib/contrib/vstudio/vc10/zlibvc.def
+           compat/zlib/contrib/vstudio/vc10/zlibvc.sln
+           compat/zlib/contrib/vstudio/vc10/zlibvc.vcxproj
+           compat/zlib/contrib/vstudio/vc10/zlibvc.vcxproj.filters
+           compat/zlib/contrib/vstudio/vc11/miniunz.vcxproj
+           compat/zlib/contrib/vstudio/vc11/minizip.vcxproj
+           compat/zlib/contrib/vstudio/vc11/testzlib.vcxproj
+           compat/zlib/contrib/vstudio/vc11/testzlibdll.vcxproj
+           compat/zlib/contrib/vstudio/vc11/zlib.rc
+           compat/zlib/contrib/vstudio/vc11/zlibstat.vcxproj
+           compat/zlib/contrib/vstudio/vc11/zlibvc.def
+           compat/zlib/contrib/vstudio/vc11/zlibvc.sln
+           compat/zlib/contrib/vstudio/vc11/zlibvc.vcxproj
+           compat/zlib/contrib/vstudio/vc12/miniunz.vcxproj
+           compat/zlib/contrib/vstudio/vc12/minizip.vcxproj
+           compat/zlib/contrib/vstudio/vc12/testzlib.vcxproj
+           compat/zlib/contrib/vstudio/vc12/testzlibdll.vcxproj
+           compat/zlib/contrib/vstudio/vc12/zlib.rc
+           compat/zlib/contrib/vstudio/vc12/zlibstat.vcxproj
+           compat/zlib/contrib/vstudio/vc12/zlibvc.def
+           compat/zlib/contrib/vstudio/vc12/zlibvc.sln
+           compat/zlib/contrib/vstudio/vc12/zlibvc.vcxproj
+           compat/zlib/contrib/vstudio/vc14/miniunz.vcxproj
+           compat/zlib/contrib/vstudio/vc14/minizip.vcxproj
+           compat/zlib/contrib/vstudio/vc14/testzlib.vcxproj
+           compat/zlib/contrib/vstudio/vc14/testzlibdll.vcxproj
+           compat/zlib/contrib/vstudio/vc14/zlib.rc
+           compat/zlib/contrib/vstudio/vc14/zlibstat.vcxproj
+           compat/zlib/contrib/vstudio/vc14/zlibvc.def
+           compat/zlib/contrib/vstudio/vc14/zlibvc.sln
+           compat/zlib/contrib/vstudio/vc14/zlibvc.vcxproj
+           compat/zlib/contrib/vstudio/vc9/zlib.rc
+           compat/zlib/contrib/vstudio/vc9/zlibvc.def
+           compat/zlib/contrib/vstudio/vc9/zlibvc.sln
+           compat/zlib/crc32.h
+           compat/zlib/examples/README.examples
+           compat/zlib/examples/fitblk.c
+           compat/zlib/examples/zpipe.c
+           compat/zlib/inffixed.h
+           compat/zlib/make_vms.com
+           compat/zlib/msdos/Makefile.bor
+           compat/zlib/msdos/Makefile.msc
+           compat/zlib/msdos/Makefile.tc
+           compat/zlib/nintendods/Makefile
+           compat/zlib/nintendods/README
+           compat/zlib/old/Makefile.riscos
+           compat/zlib/old/README
+           compat/zlib/old/descrip.mms
+           compat/zlib/old/os2/Makefile.os2
+           compat/zlib/old/os2/zlib.def
+           compat/zlib/old/visual-basic.txt
+           compat/zlib/os400/README400
+           compat/zlib/os400/bndsrc
+           compat/zlib/os400/make.sh
+           compat/zlib/os400/zlib.inc
+           compat/zlib/trees.h
+           compat/zlib/watcom/watcom_f.mak
+           compat/zlib/watcom/watcom_l.mak
+           compat/zlib/win32/DLL_FAQ.txt
+           compat/zlib/win32/Makefile.bor
+           compat/zlib/win32/Makefile.msc
+           compat/zlib/win32/USAGE.txt
+           compat/zlib/win32/VisualC.txt
+           compat/zlib/win32/zdll.lib
+           compat/zlib/win32/zlib.def
+           compat/zlib/win32/zlib1.dll
+           compat/zlib/win32/zlib1.rc
+           compat/zlib/win64-arm/libz.dll.a
+           compat/zlib/win64-arm/zdll.lib
+           compat/zlib/win64-arm/zlib1.dll
+           compat/zlib/win64/libz.dll.a
+           compat/zlib/win64/zdll.lib
+           compat/zlib/win64/zlib1.dll
+           compat/zlib/zlib.3.pdf
+           compat/zlib/zlib.map
+           compat/zlib/zlib.pc.cmakein
+           compat/zlib/zlib.pc.in
+           doc/Access.3
+           doc/AddErrInfo.3
+           doc/Alloc.3
+           doc/AllowExc.3
+           doc/AppInit.3
+           doc/AssocData.3
+           doc/Async.3
+           doc/BackgdErr.3
+           doc/Backslash.3
+           doc/BoolObj.3
+           doc/ByteArrObj.3
+           doc/CallDel.3
+           doc/Cancel.3
+           doc/ChnlStack.3
+           doc/Class.3
+           doc/CmdCmplt.3
+           doc/Concat.3
+           doc/CrtAlias.3
+           doc/CrtChannel.3
+           doc/CrtChnlHdlr.3
+           doc/CrtCloseHdlr.3
+           doc/CrtCommand.3
+           doc/CrtFileHdlr.3
+           doc/CrtInterp.3
+           doc/CrtMathFnc.3
+           doc/CrtObjCmd.3
+           doc/CrtTimerHdlr.3
+           doc/CrtTrace.3
+           doc/DString.3
+           doc/DetachPids.3
+           doc/DictObj.3
+           doc/DoOneEvent.3
+           doc/DoWhenIdle.3
+           doc/DoubleObj.3
+           doc/DumpActiveMemory.3
+           doc/Encoding.3
+           doc/Ensemble.3
+           doc/Environment.3
+           doc/Eval.3
+           doc/Exit.3
+           doc/ExprLong.3
+           doc/ExprLongObj.3
+           doc/FileSystem.3
+           doc/FindExec.3
+           doc/GetCwd.3
+           doc/GetHostName.3
+           doc/GetIndex.3
+           doc/GetInt.3
+           doc/GetOpnFl.3
+           doc/GetStdChan.3
+           doc/GetTime.3
+           doc/GetVersion.3
+           doc/Hash.3
+           doc/Init.3
+           doc/InitStubs.3
+           doc/IntObj.3
+           doc/Interp.3
+           doc/Limit.3
+           doc/LinkVar.3
+           doc/ListObj.3
+           doc/Load.3
+           doc/Method.3
+           doc/Namespace.3
+           doc/Notifier.3
+           doc/OOInitStubs.3
+           doc/Object.3
+           doc/ObjectType.3
+           doc/OpenFileChnl.3
+           doc/OpenTcp.3
+           doc/Panic.3
+           doc/ParseArgs.3
+           doc/ParseCmd.3
+           doc/PkgRequire.3
+           doc/Preserve.3
+           doc/PrintDbl.3
+           doc/RecEvalObj.3
+           doc/RecordEval.3
+           doc/RegConfig.3
+           doc/RegExp.3
+           doc/SaveResult.3
+           doc/SetChanErr.3
+           doc/SetErrno.3
+           doc/SetRecLmt.3
+           doc/SetResult.3
+           doc/SetVar.3
+           doc/Signal.3
+           doc/Sleep.3
+           doc/SourceRCFile.3
+           doc/SplitList.3
+           doc/SplitPath.3
+           doc/StaticPkg.3
+           doc/StdChannels.3
+           doc/StrMatch.3
+           doc/StringObj.3
+           doc/SubstObj.3
+           doc/TCL_MEM_DEBUG.3
+           doc/Tcl.n
+           doc/TclZlib.3
+           doc/Tcl_Main.3
+           doc/Thread.3
+           doc/ToUpper.3
+           doc/TraceCmd.3
+           doc/TraceVar.3
+           doc/Translate.3
+           doc/UniCharIsAlpha.3
+           doc/UpVar.3
+           doc/Utf.3
+           doc/WrongNumArgs.3
+           doc/after.n
+           doc/append.n
+           doc/apply.n
+           doc/array.n
+           doc/bgerror.n
+           doc/binary.n
+           doc/break.n
+           doc/case.n
+           doc/catch.n
+           doc/cd.n
+           doc/chan.n
+           doc/class.n
+           doc/close.n
+           doc/concat.n
+           doc/continue.n
+           doc/copy.n
+           doc/coroutine.n
+           doc/dde.n
+           doc/define.n
+           doc/dict.n
+           doc/encoding.n
+           doc/eof.n
+           doc/error.n
+           doc/eval.n
+           doc/exec.n
+           doc/exit.n
+           doc/fblocked.n
+           doc/fcopy.n
+           doc/file.n
+           doc/fileevent.n
+           doc/filename.n
+           doc/flush.n
+           doc/for.n
+           doc/foreach.n
+           doc/format.n
+           doc/gets.n
+           doc/glob.n
+           doc/global.n
+           doc/history.n
+           doc/http.n
+           doc/if.n
+           doc/incr.n
+           doc/info.n
+           doc/interp.n
+           doc/join.n
+           doc/lappend.n
+           doc/lassign.n
+           doc/library.n
+           doc/lindex.n
+           doc/linsert.n
+           doc/list.n
+           doc/llength.n
+           doc/lmap.n
+           doc/load.n
+           doc/lrange.n
+           doc/lrepeat.n
+           doc/lreplace.n
+           doc/lreverse.n
+           doc/lsearch.n
+           doc/lset.n
+           doc/lsort.n
+           doc/man.macros
+           doc/memory.n
+           doc/msgcat.n
+           doc/my.n
+           doc/namespace.n
+           doc/next.n
+           doc/object.n
+           doc/open.n
+           doc/package.n
+           doc/packagens.n
+           doc/pid.n
+           doc/pkgMkIndex.n
+           doc/platform.n
+           doc/platform_shell.n
+           doc/prefix.n
+           doc/proc.n
+           doc/puts.n
+           doc/pwd.n
+           doc/re_syntax.n
+           doc/read.n
+           doc/refchan.n
+           doc/regexp.n
+           doc/registry.n
+           doc/regsub.n
+           doc/rename.n
+           doc/return.n
+           doc/safe.n
+           doc/scan.n
+           doc/seek.n
+           doc/self.n
+           doc/set.n
+           doc/socket.n
+           doc/source.n
+           doc/split.n
+           doc/subst.n
+           doc/switch.n
+           doc/tailcall.n
+           doc/tclsh.1
+           doc/tcltest.n
+           doc/tclvars.n
+           doc/tell.n
+           doc/throw.n
+           doc/time.n
+           doc/timerate.n
+           doc/tm.n
+           doc/trace.n
+           doc/transchan.n
+           doc/try.n
+           doc/unknown.n
+           doc/unload.n
+           doc/unset.n
+           doc/update.n
+           doc/uplevel.n
+           doc/upvar.n
+           doc/variable.n
+           doc/vwait.n
+           doc/while.n
+           doc/zlib.n
+           generic/README
+           generic/regerrs.h
+           generic/tclCompExpr.c
+           generic/tclOODecls.h
+           generic/tclOOIntDecls.h
+           generic/tclOOStubInit.c
+           generic/tclOOStubLib.c
+           generic/tclParse.h
+           generic/tclThreadAlloc.c
+           generic/tclTomMath.h
+           generic/tclTomMathInt.h
+           generic/tommath.h
+           library/dde/pkgIndex.tcl
+           library/encoding/ascii.enc
+           library/encoding/big5.enc
+           library/encoding/cns11643.enc
+           library/encoding/cp1250.enc
+           library/encoding/cp1251.enc
+           library/encoding/cp1252.enc
+           library/encoding/cp1253.enc
+           library/encoding/cp1254.enc
+           library/encoding/cp1255.enc
+           library/encoding/cp1256.enc
+           library/encoding/cp1257.enc
+           library/encoding/cp1258.enc
+           library/encoding/cp437.enc
+           library/encoding/cp737.enc
+           library/encoding/cp775.enc
+           library/encoding/cp850.enc
+           library/encoding/cp852.enc
+           library/encoding/cp855.enc
+           library/encoding/cp857.enc
+           library/encoding/cp860.enc
+           library/encoding/cp861.enc
+           library/encoding/cp862.enc
+           library/encoding/cp863.enc
+           library/encoding/cp864.enc
+           library/encoding/cp865.enc
+           library/encoding/cp866.enc
+           library/encoding/cp869.enc
+           library/encoding/cp874.enc
+           library/encoding/cp932.enc
+           library/encoding/cp936.enc
+           library/encoding/cp949.enc
+           library/encoding/cp950.enc
+           library/encoding/dingbats.enc
+           library/encoding/ebcdic.enc
+           library/encoding/euc-cn.enc
+           library/encoding/euc-jp.enc
+           library/encoding/euc-kr.enc
+           library/encoding/gb12345.enc
+           library/encoding/gb1988.enc
+           library/encoding/gb2312-raw.enc
+           library/encoding/gb2312.enc
+           library/encoding/iso2022-jp.enc
+           library/encoding/iso2022-kr.enc
+           library/encoding/iso2022.enc
+           library/encoding/iso8859-1.enc
+           library/encoding/iso8859-10.enc
+           library/encoding/iso8859-11.enc
+           library/encoding/iso8859-13.enc
+           library/encoding/iso8859-14.enc
+           library/encoding/iso8859-15.enc
+           library/encoding/iso8859-16.enc
+           library/encoding/iso8859-2.enc
+           library/encoding/iso8859-3.enc
+           library/encoding/iso8859-4.enc
+           library/encoding/iso8859-5.enc
+           library/encoding/iso8859-6.enc
+           library/encoding/iso8859-7.enc
+           library/encoding/iso8859-8.enc
+           library/encoding/iso8859-9.enc
+           library/encoding/jis0201.enc
+           library/encoding/jis0208.enc
+           library/encoding/jis0212.enc
+           library/encoding/koi8-r.enc
+           library/encoding/koi8-u.enc
+           library/encoding/ksc5601.enc
+           library/encoding/macCentEuro.enc
+           library/encoding/macCroatian.enc
+           library/encoding/macCyrillic.enc
+           library/encoding/macDingbats.enc
+           library/encoding/macGreek.enc
+           library/encoding/macIceland.enc
+           library/encoding/macJapan.enc
+           library/encoding/macRoman.enc
+           library/encoding/macRomania.enc
+           library/encoding/macThai.enc
+           library/encoding/macTurkish.enc
+           library/encoding/macUkraine.enc
+           library/encoding/shiftjis.enc
+           library/encoding/symbol.enc
+           library/encoding/tis-620.enc
+           library/http/pkgIndex.tcl
+           library/http1.0/http.tcl
+           library/http1.0/pkgIndex.tcl
+           library/msgcat/pkgIndex.tcl
+           library/msgs/af.msg
+           library/msgs/af_za.msg
+           library/msgs/ar.msg
+           library/msgs/ar_in.msg
+           library/msgs/ar_jo.msg
+           library/msgs/ar_lb.msg
+           library/msgs/ar_sy.msg
+           library/msgs/be.msg
+           library/msgs/bg.msg
+           library/msgs/bn.msg
+           library/msgs/bn_in.msg
+           library/msgs/ca.msg
+           library/msgs/cs.msg
+           library/msgs/da.msg
+           library/msgs/de.msg
+           library/msgs/de_at.msg
+           library/msgs/de_be.msg
+           library/msgs/el.msg
+           library/msgs/en_au.msg
+           library/msgs/en_be.msg
+           library/msgs/en_bw.msg
+           library/msgs/en_ca.msg
+           library/msgs/en_gb.msg
+           library/msgs/en_hk.msg
+           library/msgs/en_ie.msg
+           library/msgs/en_in.msg
+           library/msgs/en_nz.msg
+           library/msgs/en_ph.msg
+           library/msgs/en_sg.msg
+           library/msgs/en_za.msg
+           library/msgs/en_zw.msg
+           library/msgs/eo.msg
+           library/msgs/es.msg
+           library/msgs/es_ar.msg
+           library/msgs/es_bo.msg
+           library/msgs/es_cl.msg
+           library/msgs/es_co.msg
+           library/msgs/es_cr.msg
+           library/msgs/es_do.msg
+           library/msgs/es_ec.msg
+           library/msgs/es_gt.msg
+           library/msgs/es_hn.msg
+           library/msgs/es_mx.msg
+           library/msgs/es_ni.msg
+           library/msgs/es_pa.msg
+           library/msgs/es_pe.msg
+           library/msgs/es_pr.msg
+           library/msgs/es_py.msg
+           library/msgs/es_sv.msg
+           library/msgs/es_uy.msg
+           library/msgs/es_ve.msg
+           library/msgs/et.msg
+           library/msgs/eu.msg
+           library/msgs/eu_es.msg
+           library/msgs/fa.msg
+           library/msgs/fa_in.msg
+           library/msgs/fa_ir.msg
+           library/msgs/fi.msg
+           library/msgs/fo.msg
+           library/msgs/fo_fo.msg
+           library/msgs/fr.msg
+           library/msgs/fr_be.msg
+           library/msgs/fr_ca.msg
+           library/msgs/fr_ch.msg
+           library/msgs/ga.msg
+           library/msgs/ga_ie.msg
+           library/msgs/gl.msg
+           library/msgs/gl_es.msg
+           library/msgs/gv.msg
+           library/msgs/gv_gb.msg
+           library/msgs/he.msg
+           library/msgs/hi.msg
+           library/msgs/hi_in.msg
+           library/msgs/hr.msg
+           library/msgs/hu.msg
+           library/msgs/id.msg
+           library/msgs/id_id.msg
+           library/msgs/is.msg
+           library/msgs/it.msg
+           library/msgs/it_ch.msg
+           library/msgs/ja.msg
+           library/msgs/kl.msg
+           library/msgs/kl_gl.msg
+           library/msgs/ko.msg
+           library/msgs/ko_kr.msg
+           library/msgs/kok.msg
+           library/msgs/kok_in.msg
+           library/msgs/kw.msg
+           library/msgs/kw_gb.msg
+           library/msgs/lt.msg
+           library/msgs/lv.msg
+           library/msgs/mk.msg
+           library/msgs/mr.msg
+           library/msgs/mr_in.msg
+           library/msgs/ms.msg
+           library/msgs/ms_my.msg
+           library/msgs/mt.msg
+           library/msgs/nb.msg
+           library/msgs/nl.msg
+           library/msgs/nl_be.msg
+           library/msgs/nn.msg
+           library/msgs/pl.msg
+           library/msgs/pt.msg
+           library/msgs/pt_br.msg
+           library/msgs/ro.msg
+           library/msgs/ru.msg
+           library/msgs/ru_ua.msg
+           library/msgs/sh.msg
+           library/msgs/sk.msg
+           library/msgs/sl.msg
+           library/msgs/sq.msg
+           library/msgs/sr.msg
+           library/msgs/sv.msg
+           library/msgs/sw.msg
+           library/msgs/ta.msg
+           library/msgs/ta_in.msg
+           library/msgs/te.msg
+           library/msgs/te_in.msg
+           library/msgs/th.msg
+           library/msgs/tr.msg
+           library/msgs/uk.msg
+           library/msgs/vi.msg
+           library/msgs/zh.msg
+           library/msgs/zh_cn.msg
+           library/msgs/zh_hk.msg
+           library/msgs/zh_sg.msg
+           library/msgs/zh_tw.msg
+           library/opt/optparse.tcl
+           library/opt/pkgIndex.tcl
+           library/platform/pkgIndex.tcl
+           library/platform/platform.tcl
+           library/platform/shell.tcl
+           library/reg/pkgIndex.tcl
+           library/tclIndex
+           library/tcltest/pkgIndex.tcl
+           library/tm.tcl
+           library/tzdata/Africa/Abidjan
+           library/tzdata/Africa/Accra
+           library/tzdata/Africa/Addis_Ababa
+           library/tzdata/Africa/Algiers
+           library/tzdata/Africa/Asmara
+           library/tzdata/Africa/Asmera
+           library/tzdata/Africa/Bamako
+           library/tzdata/Africa/Bangui
+           library/tzdata/Africa/Banjul
+           library/tzdata/Africa/Bissau
+           library/tzdata/Africa/Blantyre
+           library/tzdata/Africa/Brazzaville
+           library/tzdata/Africa/Bujumbura
+           library/tzdata/Africa/Cairo
+           library/tzdata/Africa/Casablanca
+           library/tzdata/Africa/Ceuta
+           library/tzdata/Africa/Conakry
+           library/tzdata/Africa/Dakar
+           library/tzdata/Africa/Dar_es_Salaam
+           library/tzdata/Africa/Djibouti
+           library/tzdata/Africa/Douala
+           library/tzdata/Africa/El_Aaiun
+           library/tzdata/Africa/Freetown
+           library/tzdata/Africa/Gaborone
+           library/tzdata/Africa/Harare
+           library/tzdata/Africa/Johannesburg
+           library/tzdata/Africa/Juba
+           library/tzdata/Africa/Kampala
+           library/tzdata/Africa/Khartoum
+           library/tzdata/Africa/Kigali
+           library/tzdata/Africa/Kinshasa
+           library/tzdata/Africa/Lagos
+           library/tzdata/Africa/Libreville
+           library/tzdata/Africa/Lome
+           library/tzdata/Africa/Luanda
+           library/tzdata/Africa/Lubumbashi
+           library/tzdata/Africa/Lusaka
+           library/tzdata/Africa/Malabo
+           library/tzdata/Africa/Maputo
+           library/tzdata/Africa/Maseru
+           library/tzdata/Africa/Mbabane
+           library/tzdata/Africa/Mogadishu
+           library/tzdata/Africa/Monrovia
+           library/tzdata/Africa/Nairobi
+           library/tzdata/Africa/Ndjamena
+           library/tzdata/Africa/Niamey
+           library/tzdata/Africa/Nouakchott
+           library/tzdata/Africa/Ouagadougou
+           library/tzdata/Africa/Porto-Novo
+           library/tzdata/Africa/Sao_Tome
+           library/tzdata/Africa/Timbuktu
+           library/tzdata/Africa/Tripoli
+           library/tzdata/Africa/Tunis
+           library/tzdata/Africa/Windhoek
+           library/tzdata/America/Adak
+           library/tzdata/America/Anchorage
+           library/tzdata/America/Anguilla
+           library/tzdata/America/Antigua
+           library/tzdata/America/Araguaina
+           library/tzdata/America/Argentina/Buenos_Aires
+           library/tzdata/America/Argentina/Catamarca
+           library/tzdata/America/Argentina/ComodRivadavia
+           library/tzdata/America/Argentina/Cordoba
+           library/tzdata/America/Argentina/Jujuy
+           library/tzdata/America/Argentina/La_Rioja
+           library/tzdata/America/Argentina/Mendoza
+           library/tzdata/America/Argentina/Rio_Gallegos
+           library/tzdata/America/Argentina/Salta
+           library/tzdata/America/Argentina/San_Juan
+           library/tzdata/America/Argentina/San_Luis
+           library/tzdata/America/Argentina/Tucuman
+           library/tzdata/America/Argentina/Ushuaia
+           library/tzdata/America/Aruba
+           library/tzdata/America/Asuncion
+           library/tzdata/America/Atikokan
+           library/tzdata/America/Atka
+           library/tzdata/America/Bahia
+           library/tzdata/America/Bahia_Banderas
+           library/tzdata/America/Barbados
+           library/tzdata/America/Belem
+           library/tzdata/America/Belize
+           library/tzdata/America/Blanc-Sablon
+           library/tzdata/America/Boa_Vista
+           library/tzdata/America/Bogota
+           library/tzdata/America/Boise
+           library/tzdata/America/Buenos_Aires
+           library/tzdata/America/Cambridge_Bay
+           library/tzdata/America/Campo_Grande
+           library/tzdata/America/Cancun
+           library/tzdata/America/Caracas
+           library/tzdata/America/Catamarca
+           library/tzdata/America/Cayenne
+           library/tzdata/America/Cayman
+           library/tzdata/America/Chicago
+           library/tzdata/America/Chihuahua
+           library/tzdata/America/Coral_Harbour
+           library/tzdata/America/Cordoba
+           library/tzdata/America/Costa_Rica
+           library/tzdata/America/Creston
+           library/tzdata/America/Cuiaba
+           library/tzdata/America/Curacao
+           library/tzdata/America/Danmarkshavn
+           library/tzdata/America/Dawson
+           library/tzdata/America/Dawson_Creek
+           library/tzdata/America/Denver
+           library/tzdata/America/Detroit
+           library/tzdata/America/Dominica
+           library/tzdata/America/Edmonton
+           library/tzdata/America/Eirunepe
+           library/tzdata/America/El_Salvador
+           library/tzdata/America/Ensenada
+           library/tzdata/America/Fort_Nelson
+           library/tzdata/America/Fort_Wayne
+           library/tzdata/America/Fortaleza
+           library/tzdata/America/Glace_Bay
+           library/tzdata/America/Godthab
+           library/tzdata/America/Goose_Bay
+           library/tzdata/America/Grand_Turk
+           library/tzdata/America/Grenada
+           library/tzdata/America/Guadeloupe
+           library/tzdata/America/Guatemala
+           library/tzdata/America/Guayaquil
+           library/tzdata/America/Guyana
+           library/tzdata/America/Halifax
+           library/tzdata/America/Havana
+           library/tzdata/America/Hermosillo
+           library/tzdata/America/Indiana/Indianapolis
+           library/tzdata/America/Indiana/Knox
+           library/tzdata/America/Indiana/Marengo
+           library/tzdata/America/Indiana/Petersburg
+           library/tzdata/America/Indiana/Tell_City
+           library/tzdata/America/Indiana/Vevay
+           library/tzdata/America/Indiana/Vincennes
+           library/tzdata/America/Indiana/Winamac
+           library/tzdata/America/Indianapolis
+           library/tzdata/America/Inuvik
+           library/tzdata/America/Iqaluit
+           library/tzdata/America/Jamaica
+           library/tzdata/America/Jujuy
+           library/tzdata/America/Juneau
+           library/tzdata/America/Kentucky/Louisville
+           library/tzdata/America/Kentucky/Monticello
+           library/tzdata/America/Knox_IN
+           library/tzdata/America/Kralendijk
+           library/tzdata/America/La_Paz
+           library/tzdata/America/Lima
+           library/tzdata/America/Los_Angeles
+           library/tzdata/America/Louisville
+           library/tzdata/America/Lower_Princes
+           library/tzdata/America/Maceio
+           library/tzdata/America/Managua
+           library/tzdata/America/Manaus
+           library/tzdata/America/Marigot
+           library/tzdata/America/Martinique
+           library/tzdata/America/Matamoros
+           library/tzdata/America/Mazatlan
+           library/tzdata/America/Mendoza
+           library/tzdata/America/Menominee
+           library/tzdata/America/Merida
+           library/tzdata/America/Metlakatla
+           library/tzdata/America/Mexico_City
+           library/tzdata/America/Miquelon
+           library/tzdata/America/Moncton
+           library/tzdata/America/Monterrey
+           library/tzdata/America/Montevideo
+           library/tzdata/America/Montreal
+           library/tzdata/America/Montserrat
+           library/tzdata/America/Nassau
+           library/tzdata/America/New_York
+           library/tzdata/America/Nipigon
+           library/tzdata/America/Nome
+           library/tzdata/America/Noronha
+           library/tzdata/America/North_Dakota/Beulah
+           library/tzdata/America/North_Dakota/Center
+           library/tzdata/America/North_Dakota/New_Salem
+           library/tzdata/America/Nuuk
+           library/tzdata/America/Ojinaga
+           library/tzdata/America/Panama
+           library/tzdata/America/Pangnirtung
+           library/tzdata/America/Paramaribo
+           library/tzdata/America/Phoenix
+           library/tzdata/America/Port-au-Prince
+           library/tzdata/America/Port_of_Spain
+           library/tzdata/America/Porto_Acre
+           library/tzdata/America/Porto_Velho
+           library/tzdata/America/Puerto_Rico
+           library/tzdata/America/Punta_Arenas
+           library/tzdata/America/Rainy_River
+           library/tzdata/America/Rankin_Inlet
+           library/tzdata/America/Recife
+           library/tzdata/America/Regina
+           library/tzdata/America/Resolute
+           library/tzdata/America/Rio_Branco
+           library/tzdata/America/Rosario
+           library/tzdata/America/Santa_Isabel
+           library/tzdata/America/Santarem
+           library/tzdata/America/Santiago
+           library/tzdata/America/Santo_Domingo
+           library/tzdata/America/Sao_Paulo
+           library/tzdata/America/Scoresbysund
+           library/tzdata/America/Shiprock
+           library/tzdata/America/Sitka
+           library/tzdata/America/St_Barthelemy
+           library/tzdata/America/St_Johns
+           library/tzdata/America/St_Kitts
+           library/tzdata/America/St_Lucia
+           library/tzdata/America/St_Thomas
+           library/tzdata/America/St_Vincent
+           library/tzdata/America/Swift_Current
+           library/tzdata/America/Tegucigalpa
+           library/tzdata/America/Thule
+           library/tzdata/America/Thunder_Bay
+           library/tzdata/America/Tijuana
+           library/tzdata/America/Toronto
+           library/tzdata/America/Tortola
+           library/tzdata/America/Vancouver
+           library/tzdata/America/Virgin
+           library/tzdata/America/Whitehorse
+           library/tzdata/America/Winnipeg
+           library/tzdata/America/Yakutat
+           library/tzdata/America/Yellowknife
+           library/tzdata/Antarctica/Casey
+           library/tzdata/Antarctica/Davis
+           library/tzdata/Antarctica/DumontDUrville
+           library/tzdata/Antarctica/Macquarie
+           library/tzdata/Antarctica/Mawson
+           library/tzdata/Antarctica/McMurdo
+           library/tzdata/Antarctica/Palmer
+           library/tzdata/Antarctica/Rothera
+           library/tzdata/Antarctica/South_Pole
+           library/tzdata/Antarctica/Syowa
+           library/tzdata/Antarctica/Troll
+           library/tzdata/Antarctica/Vostok
+           library/tzdata/Arctic/Longyearbyen
+           library/tzdata/Asia/Aden
+           library/tzdata/Asia/Almaty
+           library/tzdata/Asia/Amman
+           library/tzdata/Asia/Anadyr
+           library/tzdata/Asia/Aqtau
+           library/tzdata/Asia/Aqtobe
+           library/tzdata/Asia/Ashgabat
+           library/tzdata/Asia/Ashkhabad
+           library/tzdata/Asia/Atyrau
+           library/tzdata/Asia/Baghdad
+           library/tzdata/Asia/Bahrain
+           library/tzdata/Asia/Baku
+           library/tzdata/Asia/Bangkok
+           library/tzdata/Asia/Barnaul
+           library/tzdata/Asia/Beirut
+           library/tzdata/Asia/Bishkek
+           library/tzdata/Asia/Brunei
+           library/tzdata/Asia/Calcutta
+           library/tzdata/Asia/Chita
+           library/tzdata/Asia/Choibalsan
+           library/tzdata/Asia/Chongqing
+           library/tzdata/Asia/Chungking
+           library/tzdata/Asia/Colombo
+           library/tzdata/Asia/Dacca
+           library/tzdata/Asia/Damascus
+           library/tzdata/Asia/Dhaka
+           library/tzdata/Asia/Dili
+           library/tzdata/Asia/Dubai
+           library/tzdata/Asia/Dushanbe
+           library/tzdata/Asia/Famagusta
+           library/tzdata/Asia/Gaza
+           library/tzdata/Asia/Harbin
+           library/tzdata/Asia/Hebron
+           library/tzdata/Asia/Ho_Chi_Minh
+           library/tzdata/Asia/Hong_Kong
+           library/tzdata/Asia/Hovd
+           library/tzdata/Asia/Irkutsk
+           library/tzdata/Asia/Istanbul
+           library/tzdata/Asia/Jakarta
+           library/tzdata/Asia/Jayapura
+           library/tzdata/Asia/Jerusalem
+           library/tzdata/Asia/Kabul
+           library/tzdata/Asia/Kamchatka
+           library/tzdata/Asia/Karachi
+           library/tzdata/Asia/Kashgar
+           library/tzdata/Asia/Kathmandu
+           library/tzdata/Asia/Katmandu
+           library/tzdata/Asia/Khandyga
+           library/tzdata/Asia/Kolkata
+           library/tzdata/Asia/Krasnoyarsk
+           library/tzdata/Asia/Kuala_Lumpur
+           library/tzdata/Asia/Kuching
+           library/tzdata/Asia/Kuwait
+           library/tzdata/Asia/Macao
+           library/tzdata/Asia/Macau
+           library/tzdata/Asia/Magadan
+           library/tzdata/Asia/Makassar
+           library/tzdata/Asia/Manila
+           library/tzdata/Asia/Muscat
+           library/tzdata/Asia/Nicosia
+           library/tzdata/Asia/Novokuznetsk
+           library/tzdata/Asia/Novosibirsk
+           library/tzdata/Asia/Omsk
+           library/tzdata/Asia/Oral
+           library/tzdata/Asia/Phnom_Penh
+           library/tzdata/Asia/Pontianak
+           library/tzdata/Asia/Pyongyang
+           library/tzdata/Asia/Qatar
+           library/tzdata/Asia/Qostanay
+           library/tzdata/Asia/Qyzylorda
+           library/tzdata/Asia/Rangoon
+           library/tzdata/Asia/Riyadh
+           library/tzdata/Asia/Saigon
+           library/tzdata/Asia/Sakhalin
+           library/tzdata/Asia/Samarkand
+           library/tzdata/Asia/Seoul
+           library/tzdata/Asia/Shanghai
+           library/tzdata/Asia/Singapore
+           library/tzdata/Asia/Srednekolymsk
+           library/tzdata/Asia/Taipei
+           library/tzdata/Asia/Tashkent
+           library/tzdata/Asia/Tbilisi
+           library/tzdata/Asia/Tehran
+           library/tzdata/Asia/Tel_Aviv
+           library/tzdata/Asia/Thimbu
+           library/tzdata/Asia/Thimphu
+           library/tzdata/Asia/Tokyo
+           library/tzdata/Asia/Tomsk
+           library/tzdata/Asia/Ujung_Pandang
+           library/tzdata/Asia/Ulaanbaatar
+           library/tzdata/Asia/Ulan_Bator
+           library/tzdata/Asia/Urumqi
+           library/tzdata/Asia/Ust-Nera
+           library/tzdata/Asia/Vientiane
+           library/tzdata/Asia/Vladivostok
+           library/tzdata/Asia/Yakutsk
+           library/tzdata/Asia/Yangon
+           library/tzdata/Asia/Yekaterinburg
+           library/tzdata/Asia/Yerevan
+           library/tzdata/Atlantic/Azores
+           library/tzdata/Atlantic/Bermuda
+           library/tzdata/Atlantic/Canary
+           library/tzdata/Atlantic/Cape_Verde
+           library/tzdata/Atlantic/Faeroe
+           library/tzdata/Atlantic/Faroe
+           library/tzdata/Atlantic/Jan_Mayen
+           library/tzdata/Atlantic/Madeira
+           library/tzdata/Atlantic/Reykjavik
+           library/tzdata/Atlantic/South_Georgia
+           library/tzdata/Atlantic/St_Helena
+           library/tzdata/Atlantic/Stanley
+           library/tzdata/Australia/ACT
+           library/tzdata/Australia/Adelaide
+           library/tzdata/Australia/Brisbane
+           library/tzdata/Australia/Broken_Hill
+           library/tzdata/Australia/Canberra
+           library/tzdata/Australia/Currie
+           library/tzdata/Australia/Darwin
+           library/tzdata/Australia/Eucla
+           library/tzdata/Australia/Hobart
+           library/tzdata/Australia/LHI
+           library/tzdata/Australia/Lindeman
+           library/tzdata/Australia/Lord_Howe
+           library/tzdata/Australia/Melbourne
+           library/tzdata/Australia/NSW
+           library/tzdata/Australia/North
+           library/tzdata/Australia/Perth
+           library/tzdata/Australia/Queensland
+           library/tzdata/Australia/South
+           library/tzdata/Australia/Sydney
+           library/tzdata/Australia/Tasmania
+           library/tzdata/Australia/Victoria
+           library/tzdata/Australia/West
+           library/tzdata/Australia/Yancowinna
+           library/tzdata/Brazil/Acre
+           library/tzdata/Brazil/DeNoronha
+           library/tzdata/Brazil/East
+           library/tzdata/Brazil/West
+           library/tzdata/CET
+           library/tzdata/CST6CDT
+           library/tzdata/Canada/Atlantic
+           library/tzdata/Canada/Central
+           library/tzdata/Canada/Eastern
+           library/tzdata/Canada/Mountain
+           library/tzdata/Canada/Newfoundland
+           library/tzdata/Canada/Pacific
+           library/tzdata/Canada/Saskatchewan
+           library/tzdata/Canada/Yukon
+           library/tzdata/Chile/Continental
+           library/tzdata/Chile/EasterIsland
+           library/tzdata/Cuba
+           library/tzdata/EET
+           library/tzdata/EST
+           library/tzdata/EST5EDT
+           library/tzdata/Egypt
+           library/tzdata/Eire
+           library/tzdata/Etc/GMT
+           library/tzdata/Etc/GMT+0
+           library/tzdata/Etc/GMT+1
+           library/tzdata/Etc/GMT+10
+           library/tzdata/Etc/GMT+11
+           library/tzdata/Etc/GMT+12
+           library/tzdata/Etc/GMT+2
+           library/tzdata/Etc/GMT+3
+           library/tzdata/Etc/GMT+4
+           library/tzdata/Etc/GMT+5
+           library/tzdata/Etc/GMT+6
+           library/tzdata/Etc/GMT+7
+           library/tzdata/Etc/GMT+8
+           library/tzdata/Etc/GMT+9
+           library/tzdata/Etc/GMT-0
+           library/tzdata/Etc/GMT-1
+           library/tzdata/Etc/GMT-10
+           library/tzdata/Etc/GMT-11
+           library/tzdata/Etc/GMT-12
+           library/tzdata/Etc/GMT-13
+           library/tzdata/Etc/GMT-14
+           library/tzdata/Etc/GMT-2
+           library/tzdata/Etc/GMT-3
+           library/tzdata/Etc/GMT-4
+           library/tzdata/Etc/GMT-5
+           library/tzdata/Etc/GMT-6
+           library/tzdata/Etc/GMT-7
+           library/tzdata/Etc/GMT-8
+           library/tzdata/Etc/GMT-9
+           library/tzdata/Etc/GMT0
+           library/tzdata/Etc/Greenwich
+           library/tzdata/Etc/UCT
+           library/tzdata/Etc/UTC
+           library/tzdata/Etc/Universal
+           library/tzdata/Etc/Zulu
+           library/tzdata/Europe/Amsterdam
+           library/tzdata/Europe/Andorra
+           library/tzdata/Europe/Astrakhan
+           library/tzdata/Europe/Athens
+           library/tzdata/Europe/Belfast
+           library/tzdata/Europe/Belgrade
+           library/tzdata/Europe/Berlin
+           library/tzdata/Europe/Bratislava
+           library/tzdata/Europe/Brussels
+           library/tzdata/Europe/Bucharest
+           library/tzdata/Europe/Budapest
+           library/tzdata/Europe/Busingen
+           library/tzdata/Europe/Chisinau
+           library/tzdata/Europe/Copenhagen
+           library/tzdata/Europe/Dublin
+           library/tzdata/Europe/Gibraltar
+           library/tzdata/Europe/Guernsey
+           library/tzdata/Europe/Helsinki
+           library/tzdata/Europe/Isle_of_Man
+           library/tzdata/Europe/Istanbul
+           library/tzdata/Europe/Jersey
+           library/tzdata/Europe/Kaliningrad
+           library/tzdata/Europe/Kiev
+           library/tzdata/Europe/Kirov
+           library/tzdata/Europe/Kyiv
+           library/tzdata/Europe/Lisbon
+           library/tzdata/Europe/Ljubljana
+           library/tzdata/Europe/London
+           library/tzdata/Europe/Luxembourg
+           library/tzdata/Europe/Madrid
+           library/tzdata/Europe/Malta
+           library/tzdata/Europe/Mariehamn
+           library/tzdata/Europe/Minsk
+           library/tzdata/Europe/Monaco
+           library/tzdata/Europe/Moscow
+           library/tzdata/Europe/Nicosia
+           library/tzdata/Europe/Oslo
+           library/tzdata/Europe/Paris
+           library/tzdata/Europe/Podgorica
+           library/tzdata/Europe/Prague
+           library/tzdata/Europe/Riga
+           library/tzdata/Europe/Rome
+           library/tzdata/Europe/Samara
+           library/tzdata/Europe/San_Marino
+           library/tzdata/Europe/Sarajevo
+           library/tzdata/Europe/Saratov
+           library/tzdata/Europe/Simferopol
+           library/tzdata/Europe/Skopje
+           library/tzdata/Europe/Sofia
+           library/tzdata/Europe/Stockholm
+           library/tzdata/Europe/Tallinn
+           library/tzdata/Europe/Tirane
+           library/tzdata/Europe/Tiraspol
+           library/tzdata/Europe/Ulyanovsk
+           library/tzdata/Europe/Uzhgorod
+           library/tzdata/Europe/Vaduz
+           library/tzdata/Europe/Vatican
+           library/tzdata/Europe/Vienna
+           library/tzdata/Europe/Vilnius
+           library/tzdata/Europe/Volgograd
+           library/tzdata/Europe/Warsaw
+           library/tzdata/Europe/Zagreb
+           library/tzdata/Europe/Zaporozhye
+           library/tzdata/Europe/Zurich
+           library/tzdata/GB
+           library/tzdata/GB-Eire
+           library/tzdata/GMT
+           library/tzdata/GMT+0
+           library/tzdata/GMT-0
+           library/tzdata/GMT0
+           library/tzdata/Greenwich
+           library/tzdata/HST
+           library/tzdata/Hongkong
+           library/tzdata/Iceland
+           library/tzdata/Indian/Antananarivo
+           library/tzdata/Indian/Chagos
+           library/tzdata/Indian/Christmas
+           library/tzdata/Indian/Cocos
+           library/tzdata/Indian/Comoro
+           library/tzdata/Indian/Kerguelen
+           library/tzdata/Indian/Mahe
+           library/tzdata/Indian/Maldives
+           library/tzdata/Indian/Mauritius
+           library/tzdata/Indian/Mayotte
+           library/tzdata/Indian/Reunion
+           library/tzdata/Iran
+           library/tzdata/Israel
+           library/tzdata/Jamaica
+           library/tzdata/Japan
+           library/tzdata/Kwajalein
+           library/tzdata/Libya
+           library/tzdata/MET
+           library/tzdata/MST
+           library/tzdata/MST7MDT
+           library/tzdata/Mexico/BajaNorte
+           library/tzdata/Mexico/BajaSur
+           library/tzdata/Mexico/General
+           library/tzdata/NZ
+           library/tzdata/NZ-CHAT
+           library/tzdata/Navajo
+           library/tzdata/PRC
+           library/tzdata/PST8PDT
+           library/tzdata/Pacific/Apia
+           library/tzdata/Pacific/Auckland
+           library/tzdata/Pacific/Bougainville
+           library/tzdata/Pacific/Chatham
+           library/tzdata/Pacific/Chuuk
+           library/tzdata/Pacific/Easter
+           library/tzdata/Pacific/Efate
+           library/tzdata/Pacific/Enderbury
+           library/tzdata/Pacific/Fakaofo
+           library/tzdata/Pacific/Fiji
+           library/tzdata/Pacific/Funafuti
+           library/tzdata/Pacific/Galapagos
+           library/tzdata/Pacific/Gambier
+           library/tzdata/Pacific/Guadalcanal
+           library/tzdata/Pacific/Guam
+           library/tzdata/Pacific/Honolulu
+           library/tzdata/Pacific/Johnston
+           library/tzdata/Pacific/Kanton
+           library/tzdata/Pacific/Kiritimati
+           library/tzdata/Pacific/Kosrae
+           library/tzdata/Pacific/Kwajalein
+           library/tzdata/Pacific/Majuro
+           library/tzdata/Pacific/Marquesas
+           library/tzdata/Pacific/Midway
+           library/tzdata/Pacific/Nauru
+           library/tzdata/Pacific/Niue
+           library/tzdata/Pacific/Norfolk
+           library/tzdata/Pacific/Noumea
+           library/tzdata/Pacific/Pago_Pago
+           library/tzdata/Pacific/Palau
+           library/tzdata/Pacific/Pitcairn
+           library/tzdata/Pacific/Pohnpei
+           library/tzdata/Pacific/Ponape
+           library/tzdata/Pacific/Port_Moresby
+           library/tzdata/Pacific/Rarotonga
+           library/tzdata/Pacific/Saipan
+           library/tzdata/Pacific/Samoa
+           library/tzdata/Pacific/Tahiti
+           library/tzdata/Pacific/Tarawa
+           library/tzdata/Pacific/Tongatapu
+           library/tzdata/Pacific/Truk
+           library/tzdata/Pacific/Wake
+           library/tzdata/Pacific/Wallis
+           library/tzdata/Pacific/Yap
+           library/tzdata/Poland
+           library/tzdata/Portugal
+           library/tzdata/ROC
+           library/tzdata/ROK
+           library/tzdata/Singapore
+           library/tzdata/SystemV/AST4
+           library/tzdata/SystemV/AST4ADT
+           library/tzdata/SystemV/CST6
+           library/tzdata/SystemV/CST6CDT
+           library/tzdata/SystemV/EST5
+           library/tzdata/SystemV/EST5EDT
+           library/tzdata/SystemV/HST10
+           library/tzdata/SystemV/MST7
+           library/tzdata/SystemV/MST7MDT
+           library/tzdata/SystemV/PST8
+           library/tzdata/SystemV/PST8PDT
+           library/tzdata/SystemV/YST9
+           library/tzdata/SystemV/YST9YDT
+           library/tzdata/Turkey
+           library/tzdata/UCT
+           library/tzdata/US/Alaska
+           library/tzdata/US/Aleutian
+           library/tzdata/US/Arizona
+           library/tzdata/US/Central
+           library/tzdata/US/East-Indiana
+           library/tzdata/US/Eastern
+           library/tzdata/US/Hawaii
+           library/tzdata/US/Indiana-Starke
+           library/tzdata/US/Michigan
+           library/tzdata/US/Mountain
+           library/tzdata/US/Pacific
+           library/tzdata/US/Samoa
+           library/tzdata/UTC
+           library/tzdata/Universal
+           library/tzdata/W-SU
+           library/tzdata/WET
+           library/tzdata/Zulu
+           libtommath/bn_cutoffs.c
+           libtommath/bn_deprecated.c
+           libtommath/bn_mp_2expt.c
+           libtommath/bn_mp_abs.c
+           libtommath/bn_mp_add.c
+           libtommath/bn_mp_add_d.c
+           libtommath/bn_mp_addmod.c
+           libtommath/bn_mp_and.c
+           libtommath/bn_mp_clamp.c
+           libtommath/bn_mp_clear.c
+           libtommath/bn_mp_clear_multi.c
+           libtommath/bn_mp_cmp.c
+           libtommath/bn_mp_cmp_d.c
+           libtommath/bn_mp_cmp_mag.c
+           libtommath/bn_mp_cnt_lsb.c
+           libtommath/bn_mp_complement.c
+           libtommath/bn_mp_copy.c
+           libtommath/bn_mp_count_bits.c
+           libtommath/bn_mp_decr.c
+           libtommath/bn_mp_div.c
+           libtommath/bn_mp_div_2.c
+           libtommath/bn_mp_div_2d.c
+           libtommath/bn_mp_div_3.c
+           libtommath/bn_mp_div_d.c
+           libtommath/bn_mp_dr_is_modulus.c
+           libtommath/bn_mp_dr_reduce.c
+           libtommath/bn_mp_dr_setup.c
+           libtommath/bn_mp_error_to_string.c
+           libtommath/bn_mp_exch.c
+           libtommath/bn_mp_expt_u32.c
+           libtommath/bn_mp_exptmod.c
+           libtommath/bn_mp_exteuclid.c
+           libtommath/bn_mp_fread.c
+           libtommath/bn_mp_from_sbin.c
+           libtommath/bn_mp_from_ubin.c
+           libtommath/bn_mp_fwrite.c
+           libtommath/bn_mp_gcd.c
+           libtommath/bn_mp_get_double.c
+           libtommath/bn_mp_get_i32.c
+           libtommath/bn_mp_get_i64.c
+           libtommath/bn_mp_get_l.c
+           libtommath/bn_mp_get_ll.c
+           libtommath/bn_mp_get_mag_u32.c
+           libtommath/bn_mp_get_mag_u64.c
+           libtommath/bn_mp_get_mag_ul.c
+           libtommath/bn_mp_get_mag_ull.c
+           libtommath/bn_mp_grow.c
+           libtommath/bn_mp_incr.c
+           libtommath/bn_mp_init.c
+           libtommath/bn_mp_init_copy.c
+           libtommath/bn_mp_init_i32.c
+           libtommath/bn_mp_init_i64.c
+           libtommath/bn_mp_init_l.c
+           libtommath/bn_mp_init_ll.c
+           libtommath/bn_mp_init_multi.c
+           libtommath/bn_mp_init_set.c
+           libtommath/bn_mp_init_size.c
+           libtommath/bn_mp_init_u32.c
+           libtommath/bn_mp_init_u64.c
+           libtommath/bn_mp_init_ul.c
+           libtommath/bn_mp_init_ull.c
+           libtommath/bn_mp_invmod.c
+           libtommath/bn_mp_is_square.c
+           libtommath/bn_mp_iseven.c
+           libtommath/bn_mp_isodd.c
+           libtommath/bn_mp_kronecker.c
+           libtommath/bn_mp_lcm.c
+           libtommath/bn_mp_log_u32.c
+           libtommath/bn_mp_lshd.c
+           libtommath/bn_mp_mod.c
+           libtommath/bn_mp_mod_2d.c
+           libtommath/bn_mp_mod_d.c
+           libtommath/bn_mp_montgomery_calc_normalization.c
+           libtommath/bn_mp_montgomery_reduce.c
+           libtommath/bn_mp_montgomery_setup.c
+           libtommath/bn_mp_mul.c
+           libtommath/bn_mp_mul_2.c
+           libtommath/bn_mp_mul_2d.c
+           libtommath/bn_mp_mul_d.c
+           libtommath/bn_mp_mulmod.c
+           libtommath/bn_mp_neg.c
+           libtommath/bn_mp_or.c
+           libtommath/bn_mp_pack.c
+           libtommath/bn_mp_pack_count.c
+           libtommath/bn_mp_prime_fermat.c
+           libtommath/bn_mp_prime_frobenius_underwood.c
+           libtommath/bn_mp_prime_is_prime.c
+           libtommath/bn_mp_prime_miller_rabin.c
+           libtommath/bn_mp_prime_next_prime.c
+           libtommath/bn_mp_prime_rabin_miller_trials.c
+           libtommath/bn_mp_prime_rand.c
+           libtommath/bn_mp_prime_strong_lucas_selfridge.c
+           libtommath/bn_mp_radix_size.c
+           libtommath/bn_mp_radix_smap.c
+           libtommath/bn_mp_rand.c
+           libtommath/bn_mp_read_radix.c
+           libtommath/bn_mp_reduce.c
+           libtommath/bn_mp_reduce_2k.c
+           libtommath/bn_mp_reduce_2k_l.c
+           libtommath/bn_mp_reduce_2k_setup.c
+           libtommath/bn_mp_reduce_2k_setup_l.c
+           libtommath/bn_mp_reduce_is_2k.c
+           libtommath/bn_mp_reduce_is_2k_l.c
+           libtommath/bn_mp_reduce_setup.c
+           libtommath/bn_mp_root_u32.c
+           libtommath/bn_mp_rshd.c
+           libtommath/bn_mp_sbin_size.c
+           libtommath/bn_mp_set.c
+           libtommath/bn_mp_set_double.c
+           libtommath/bn_mp_set_i32.c
+           libtommath/bn_mp_set_i64.c
+           libtommath/bn_mp_set_l.c
+           libtommath/bn_mp_set_ll.c
+           libtommath/bn_mp_set_u32.c
+           libtommath/bn_mp_set_u64.c
+           libtommath/bn_mp_set_ul.c
+           libtommath/bn_mp_set_ull.c
+           libtommath/bn_mp_shrink.c
+           libtommath/bn_mp_signed_rsh.c
+           libtommath/bn_mp_sqr.c
+           libtommath/bn_mp_sqrmod.c
+           libtommath/bn_mp_sqrt.c
+           libtommath/bn_mp_sqrtmod_prime.c
+           libtommath/bn_mp_sub.c
+           libtommath/bn_mp_sub_d.c
+           libtommath/bn_mp_submod.c
+           libtommath/bn_mp_to_radix.c
+           libtommath/bn_mp_to_sbin.c
+           libtommath/bn_mp_to_ubin.c
+           libtommath/bn_mp_ubin_size.c
+           libtommath/bn_mp_unpack.c
+           libtommath/bn_mp_xor.c
+           libtommath/bn_mp_zero.c
+           libtommath/bn_prime_tab.c
+           libtommath/bn_s_mp_add.c
+           libtommath/bn_s_mp_balance_mul.c
+           libtommath/bn_s_mp_exptmod.c
+           libtommath/bn_s_mp_exptmod_fast.c
+           libtommath/bn_s_mp_get_bit.c
+           libtommath/bn_s_mp_invmod_fast.c
+           libtommath/bn_s_mp_invmod_slow.c
+           libtommath/bn_s_mp_karatsuba_mul.c
+           libtommath/bn_s_mp_karatsuba_sqr.c
+           libtommath/bn_s_mp_montgomery_reduce_fast.c
+           libtommath/bn_s_mp_mul_digs.c
+           libtommath/bn_s_mp_mul_digs_fast.c
+           libtommath/bn_s_mp_mul_high_digs.c
+           libtommath/bn_s_mp_mul_high_digs_fast.c
+           libtommath/bn_s_mp_prime_is_divisible.c
+           libtommath/bn_s_mp_rand_jenkins.c
+           libtommath/bn_s_mp_rand_platform.c
+           libtommath/bn_s_mp_reverse.c
+           libtommath/bn_s_mp_sqr.c
+           libtommath/bn_s_mp_sqr_fast.c
+           libtommath/bn_s_mp_sub.c
+           libtommath/bn_s_mp_toom_mul.c
+           libtommath/bn_s_mp_toom_sqr.c
+           libtommath/tommath.h
+           libtommath/tommath_class.h
+           libtommath/tommath_cutoffs.h
+           libtommath/tommath_private.h
+           libtommath/tommath_superclass.h
+           macosx/README
+           macosx/Tcl.xcode/default.pbxuser
+           macosx/Tcl.xcode/project.pbxproj
+           macosx/Tcl.xcodeproj/default.pbxuser
+           macosx/Tcl.xcodeproj/project.pbxproj
+           macosx/configure.ac
+           manifest.uuid
+           pkgs/README
+           pkgs/itcl4.2.3/README
+           pkgs/itcl4.2.3/TODO
+           pkgs/itcl4.2.3/aclocal.m4
+           pkgs/itcl4.2.3/configure.ac
+           pkgs/itcl4.2.3/doc/Class.3
+           pkgs/itcl4.2.3/doc/List.3
+           pkgs/itcl4.2.3/doc/Object.3
+           pkgs/itcl4.2.3/doc/Preserve.3
+           pkgs/itcl4.2.3/doc/RegisterC.3
+           pkgs/itcl4.2.3/doc/Stack.3
+           pkgs/itcl4.2.3/doc/body.n
+           pkgs/itcl4.2.3/doc/class.n
+           pkgs/itcl4.2.3/doc/code.n
+           pkgs/itcl4.2.3/doc/configbody.n
+           pkgs/itcl4.2.3/doc/delete.n
+           pkgs/itcl4.2.3/doc/ensemble.n
+           pkgs/itcl4.2.3/doc/find.n
+           pkgs/itcl4.2.3/doc/is.n
+           pkgs/itcl4.2.3/doc/itcl.n
+           pkgs/itcl4.2.3/doc/itclcomponent.n
+           pkgs/itcl4.2.3/doc/itcldelegate.n
+           pkgs/itcl4.2.3/doc/itclextendedclass.n
+           pkgs/itcl4.2.3/doc/itcloption.n
+           pkgs/itcl4.2.3/doc/itclvars.n
+           pkgs/itcl4.2.3/doc/itclwidget.n
+           pkgs/itcl4.2.3/doc/license.terms
+           pkgs/itcl4.2.3/doc/local.n
+           pkgs/itcl4.2.3/doc/man.macros
+           pkgs/itcl4.2.3/doc/scope.n
+           pkgs/itcl4.2.3/generic/itcl.decls
+           pkgs/itcl4.2.3/generic/itcl2TclOO.h
+           pkgs/itcl4.2.3/generic/itclDecls.h
+           pkgs/itcl4.2.3/generic/itclIntDecls.h
+           pkgs/itcl4.2.3/generic/itclMigrate2TclCore.c
+           pkgs/itcl4.2.3/generic/itclMigrate2TclCore.h
+           pkgs/itcl4.2.3/generic/itclResolve.c
+           pkgs/itcl4.2.3/generic/itclStubInit.c
+           pkgs/itcl4.2.3/generic/itclStubLib.c
+           pkgs/itcl4.2.3/generic/itclTclIntStubsFcn.c
+           pkgs/itcl4.2.3/generic/itclTclIntStubsFcn.h
+           pkgs/itcl4.2.3/generic/itclTestRegisterC.c
+           pkgs/itcl4.2.3/itclConfig.sh.in
+           pkgs/itcl4.2.3/library/itcl.tcl
+           pkgs/itcl4.2.3/library/itclHullCmds.tcl
+           pkgs/itcl4.2.3/library/itclWidget.tcl
+           pkgs/itcl4.2.3/library/test_Itcl_CreateObject.tcl
+           pkgs/itcl4.2.3/manifest.uuid
+           pkgs/itcl4.2.3/pkgIndex.tcl.in
+           pkgs/itcl4.2.3/releasenotes.txt
+           pkgs/itcl4.2.3/tclconfig/README.txt
+           pkgs/itcl4.2.3/tests/basic.test
+           pkgs/itcl4.2.3/tests/body.test
+           pkgs/itcl4.2.3/tests/chain.test
+           pkgs/itcl4.2.3/tests/delete.test
+           pkgs/itcl4.2.3/tests/eclasscomponent.test
+           pkgs/itcl4.2.3/tests/ensemble.test
+           pkgs/itcl4.2.3/tests/general1.test
+           pkgs/itcl4.2.3/tests/helpers.tcl
+           pkgs/itcl4.2.3/tests/import.test
+           pkgs/itcl4.2.3/tests/info.test
+           pkgs/itcl4.2.3/tests/inherit.test
+           pkgs/itcl4.2.3/tests/interp.test
+           pkgs/itcl4.2.3/tests/local.test
+           pkgs/itcl4.2.3/tests/methods.test
+           pkgs/itcl4.2.3/tests/mkindex.test
+           pkgs/itcl4.2.3/tests/namespace.test
+           pkgs/itcl4.2.3/tests/protection.test
+           pkgs/itcl4.2.3/tests/scope.test
+           pkgs/itcl4.2.3/tests/sfbugs.test
+           pkgs/itcl4.2.3/tests/tclIndex
+           pkgs/itcl4.2.3/tests/typeclass.test
+           pkgs/itcl4.2.3/tests/typedelegation.test
+           pkgs/itcl4.2.3/tests/typefunction.test
+           pkgs/itcl4.2.3/tests/typeinfo.test
+           pkgs/itcl4.2.3/tests/typeoption.test
+           pkgs/itcl4.2.3/tests/typevariable.test
+           pkgs/itcl4.2.3/tests/widgetadaptor.test
+           pkgs/itcl4.2.3/tests/widgetclass.test
+           pkgs/itcl4.2.3/win/dllEntryPoint.c
+           pkgs/itcl4.2.3/win/gitmanifest.in
+           pkgs/itcl4.2.3/win/itcl.rc
+           pkgs/itcl4.2.3/win/itclUuid.h.in
+           pkgs/itcl4.2.3/win/makefile.vc
+           pkgs/itcl4.2.3/win/rules-ext.vc
+           pkgs/itcl4.2.3/win/svnmanifest.in
+           pkgs/itcl4.2.3/win/targets.vc
+           pkgs/itcl4.2.3/win/toaster.bmp
+           pkgs/itcl4.2.3/win/x86_64-w64-mingw32-nmakehlp.exe
+           pkgs/package.list.txt
+           pkgs/sqlite3.40.0/README
+           pkgs/sqlite3.40.0/aclocal.m4
+           pkgs/sqlite3.40.0/compat/sqlite3/shell.c
+           pkgs/sqlite3.40.0/compat/sqlite3/spaceanal.tcl
+           pkgs/sqlite3.40.0/compat/sqlite3/sqlite3.h
+           pkgs/sqlite3.40.0/compat/sqlite3/sqlite3ext.h
+           pkgs/sqlite3.40.0/configure.ac
+           pkgs/sqlite3.40.0/doc/sqlite3.n
+           pkgs/sqlite3.40.0/generic/tclsqlite3.c
+           pkgs/sqlite3.40.0/license.terms
+           pkgs/sqlite3.40.0/pkgIndex.tcl.in
+           pkgs/sqlite3.40.0/tests/leapsecond.test
+           pkgs/sqlite3.40.0/win/makefile.vc
+           pkgs/sqlite3.40.0/win/rules-ext.vc
+           pkgs/sqlite3.40.0/win/targets.vc
+           pkgs/sqlite3.40.0/win/x86_64-w64-mingw32-nmakehlp.exe
+           pkgs/tdbc1.1.5/README
+           pkgs/tdbc1.1.5/aclocal.m4
+           pkgs/tdbc1.1.5/configure.ac
+           pkgs/tdbc1.1.5/manifest.uuid
+           pkgs/tdbc1.1.5/pkgIndex.tcl.in
+           pkgs/tdbc1.1.5/tclconfig/README.txt
+           pkgs/tdbc1.1.5/tdbcConfig.sh.in
+           pkgs/tdbc1.1.5/tests/tokenize.test
+           pkgs/tdbc1.1.5/tools/genExtStubs.tcl
+           pkgs/tdbc1.1.5/win/gitmanifest.in
+           pkgs/tdbc1.1.5/win/makefile.vc
+           pkgs/tdbc1.1.5/win/rules-ext.vc
+           pkgs/tdbc1.1.5/win/svnmanifest.in
+           pkgs/tdbc1.1.5/win/targets.vc
+           pkgs/tdbc1.1.5/win/tdbc.rc
+           pkgs/tdbc1.1.5/win/tdbcUuid.h.in
+           pkgs/tdbcmysql1.1.5/README
+           pkgs/tdbcmysql1.1.5/aclocal.m4
+           pkgs/tdbcmysql1.1.5/configure.ac
+           pkgs/tdbcmysql1.1.5/generic/fakemysql.h
+           pkgs/tdbcmysql1.1.5/generic/int2ptr_ptr2int.h
+           pkgs/tdbcmysql1.1.5/generic/mysqlStubDefs.txt
+           pkgs/tdbcmysql1.1.5/generic/mysqlStubs.h
+           pkgs/tdbcmysql1.1.5/manifest.uuid
+           pkgs/tdbcmysql1.1.5/pkgIndex.tcl.in
+           pkgs/tdbcmysql1.1.5/tclconfig/README.txt
+           pkgs/tdbcmysql1.1.5/win/gitmanifest.in
+           pkgs/tdbcmysql1.1.5/win/makefile.vc
+           pkgs/tdbcmysql1.1.5/win/rules-ext.vc
+           pkgs/tdbcmysql1.1.5/win/svnmanifest.in
+           pkgs/tdbcmysql1.1.5/win/targets.vc
+           pkgs/tdbcmysql1.1.5/win/tdbcMysqlUuid.h.in
+           pkgs/tdbcodbc1.1.5/README
+           pkgs/tdbcodbc1.1.5/aclocal.m4
+           pkgs/tdbcodbc1.1.5/configure.ac
+           pkgs/tdbcodbc1.1.5/generic/fakesql.h
+           pkgs/tdbcodbc1.1.5/generic/int2ptr_ptr2int.h
+           pkgs/tdbcodbc1.1.5/generic/odbcStubDefs.txt
+           pkgs/tdbcodbc1.1.5/generic/odbcStubs.h
+           pkgs/tdbcodbc1.1.5/manifest.uuid
+           pkgs/tdbcodbc1.1.5/pkgIndex.tcl.in
+           pkgs/tdbcodbc1.1.5/tclconfig/README.txt
+           pkgs/tdbcodbc1.1.5/tests/test.mdb
+           pkgs/tdbcodbc1.1.5/win/gitmanifest.in
+           pkgs/tdbcodbc1.1.5/win/makefile.vc
+           pkgs/tdbcodbc1.1.5/win/rules-ext.vc
+           pkgs/tdbcodbc1.1.5/win/svnmanifest.in
+           pkgs/tdbcodbc1.1.5/win/targets.vc
+           pkgs/tdbcodbc1.1.5/win/tdbcOdbcUuid.h.in
+           pkgs/tdbcpostgres1.1.5/README
+           pkgs/tdbcpostgres1.1.5/TODO
+           pkgs/tdbcpostgres1.1.5/aclocal.m4
+           pkgs/tdbcpostgres1.1.5/configure.ac
+           pkgs/tdbcpostgres1.1.5/generic/fakepq.h
+           pkgs/tdbcpostgres1.1.5/generic/int2ptr_ptr2int.h
+           pkgs/tdbcpostgres1.1.5/generic/pqStubDefs.txt
+           pkgs/tdbcpostgres1.1.5/generic/pqStubs.h
+           pkgs/tdbcpostgres1.1.5/manifest.uuid
+           pkgs/tdbcpostgres1.1.5/pkgIndex.tcl.in
+           pkgs/tdbcpostgres1.1.5/tclconfig/README.txt
+           pkgs/tdbcpostgres1.1.5/tests/future/tdbcpostgre.test.tcl
+           pkgs/tdbcpostgres1.1.5/win/gitmanifest.in
+           pkgs/tdbcpostgres1.1.5/win/makefile.vc
+           pkgs/tdbcpostgres1.1.5/win/rules-ext.vc
+           pkgs/tdbcpostgres1.1.5/win/svnmanifest.in
+           pkgs/tdbcpostgres1.1.5/win/targets.vc
+           pkgs/tdbcpostgres1.1.5/win/tdbcPostgresUuid.h.in
+           pkgs/tdbcsqlite3-1.1.5/README
+           pkgs/tdbcsqlite3-1.1.5/aclocal.m4
+           pkgs/tdbcsqlite3-1.1.5/configure.ac
+           pkgs/tdbcsqlite3-1.1.5/pkgIndex.tcl.in
+           pkgs/tdbcsqlite3-1.1.5/tclconfig/README.txt
+           pkgs/tdbcsqlite3-1.1.5/win/makefile.vc
+           pkgs/tdbcsqlite3-1.1.5/win/rules-ext.vc
+           pkgs/tdbcsqlite3-1.1.5/win/targets.vc
+           pkgs/thread2.8.8/README
+           pkgs/thread2.8.8/aclocal.m4
+           pkgs/thread2.8.8/configure.ac
+           pkgs/thread2.8.8/doc/format.tcl
+           pkgs/thread2.8.8/doc/html/thread.html
+           pkgs/thread2.8.8/doc/html/tpool.html
+           pkgs/thread2.8.8/doc/html/tsv.html
+           pkgs/thread2.8.8/doc/html/ttrace.html
+           pkgs/thread2.8.8/doc/man.macros
+           pkgs/thread2.8.8/doc/man/thread.n
+           pkgs/thread2.8.8/doc/man/tpool.n
+           pkgs/thread2.8.8/doc/man/tsv.n
+           pkgs/thread2.8.8/doc/man/ttrace.n
+           pkgs/thread2.8.8/doc/thread.man
+           pkgs/thread2.8.8/doc/tpool.man
+           pkgs/thread2.8.8/doc/tsv.man
+           pkgs/thread2.8.8/doc/ttrace.man
+           pkgs/thread2.8.8/generic/psGdbm.c
+           pkgs/thread2.8.8/generic/psGdbm.h
+           pkgs/thread2.8.8/generic/psLmdb.c
+           pkgs/thread2.8.8/generic/psLmdb.h
+           pkgs/thread2.8.8/generic/threadSvKeylistCmd.c
+           pkgs/thread2.8.8/generic/threadSvKeylistCmd.h
+           pkgs/thread2.8.8/manifest.uuid
+           pkgs/thread2.8.8/naviserver.m4
+           pkgs/thread2.8.8/pkgIndex.tcl.in
+           pkgs/thread2.8.8/tcl/README
+           pkgs/thread2.8.8/tclconfig/README.txt
+           pkgs/thread2.8.8/tests/store-load.tcl
+           pkgs/thread2.8.8/tests/tkt-84be1b5a73.test
+           pkgs/thread2.8.8/tests/tpool.test
+           pkgs/thread2.8.8/tests/tsv.test
+           pkgs/thread2.8.8/tests/ttrace.test
+           pkgs/thread2.8.8/unix/CONFIG
+           pkgs/thread2.8.8/unix/README
+           pkgs/thread2.8.8/win/CONFIG
+           pkgs/thread2.8.8/win/README.txt
+           pkgs/thread2.8.8/win/gitmanifest.in
+           pkgs/thread2.8.8/win/makefile.vc
+           pkgs/thread2.8.8/win/pkg.vc
+           pkgs/thread2.8.8/win/rules-ext.vc
+           pkgs/thread2.8.8/win/svnmanifest.in
+           pkgs/thread2.8.8/win/targets.vc
+           pkgs/thread2.8.8/win/thread.rc
+           pkgs/thread2.8.8/win/threadUuid.h.in
+           pkgs/thread2.8.8/win/thread_win.dsp
+           pkgs/thread2.8.8/win/thread_win.dsw
+           tests/README
+           tests/auto0/auto1/file1.tcl
+           tests/auto0/auto1/package1.tcl
+           tests/auto0/auto1/pkgIndex.tcl
+           tests/auto0/auto1/tclIndex
+           tests/auto0/auto2/file2.tcl
+           tests/auto0/auto2/package2.tcl
+           tests/auto0/auto2/pkgIndex.tcl
+           tests/auto0/auto2/tclIndex
+           tests/auto0/modules/mod1/test1-1.0.tm
+           tests/auto0/modules/mod2/test2-2.0.tm
+           tests/auto0/modules/test0-0.5.tm
+           tests/main.test
+           tests/pkgIndex.tcl
+           tests/tcltests.tcl
+           tools/Makefile.in
+           tools/README
+           tools/configure.in
+           tools/eolFix.tcl
+           tools/feather.bmp
+           tools/makeTestCases.tcl
+           tools/tcl.hpj.in
+           tools/tsdPerf.tcl
+           tools/uniClass.tcl
+           tools/white.bmp
+           unix/Makefile.in
+           unix/aclocal.m4
+           unix/configure.in
+           unix/dltest/Makefile.in
+           unix/dltest/README
+           unix/installManPage
+           unix/ldAix
+           unix/tcl.m4
+           unix/tcl.pc.in
+           unix/tcl.spec
+           unix/tclConfig.h.in
+           unix/tclConfig.sh.in
+           unix/tclUnixCompat.c
+           unix/tclooConfig.sh
+           win/Makefile.in
+           win/README
+           win/aclocal.m4
+           win/buildall.vc.bat
+           win/coffbase.txt
+           win/configure.in
+           win/gitmanifest.in
+           win/rules-ext.vc
+           win/svnmanifest.in
+           win/targets.vc
+           win/tcl.dsp
+           win/tcl.dsw
+           win/tcl.hpj.in
+           win/tcl.m4
+           win/tcl.rc
+           win/tclConfig.sh.in
+           win/tclUuid.h.in
+           win/tclooConfig.sh
+           win/tclsh.ico
+           win/tclsh.rc
+           win/x86_64-w64-mingw32-nmakehlp.exe
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     compat/dirent.h
+           compat/dirent2.h
+           compat/float.h
+           compat/gettod.c
+           compat/memcmp.c
+           compat/mkstemp.c
+           compat/stdlib.h
+           compat/string.h
+           compat/strncasecmp.c
+           compat/strstr.c
+           compat/strtol.c
+           compat/strtoul.c
+           compat/waitpid.c
+           doc/mathop.n
+           doc/string.n
+           generic/tcl.decls
+           generic/tcl.h
+           generic/tclAsync.c
+           generic/tclBasic.c
+           generic/tclBinary.c
+           generic/tclClock.c
+           generic/tclCmdAH.c
+           generic/tclCmdIL.c
+           generic/tclCmdMZ.c
+           generic/tclCompCmds.c
+           generic/tclCompCmdsGR.c
+           generic/tclCompCmdsSZ.c
+           generic/tclCompile.c
+           generic/tclCompile.h
+           generic/tclConfig.c
+           generic/tclDTrace.d
+           generic/tclDecls.h
+           generic/tclDictObj.c
+           generic/tclDisassemble.c
+           generic/tclEncoding.c
+           generic/tclEnsemble.c
+           generic/tclEnv.c
+           generic/tclEvent.c
+           generic/tclExecute.c
+           generic/tclFCmd.c
+           generic/tclFileName.c
+           generic/tclFileSystem.h
+           generic/tclGet.c
+           generic/tclGetDate.y
+           generic/tclHash.c
+           generic/tclHistory.c
+           generic/tclIO.c
+           generic/tclIOCmd.c
+           generic/tclIOGT.c
+           generic/tclIORChan.c
+           generic/tclIORTrans.c
+           generic/tclIOSock.c
+           generic/tclIOUtil.c
+           generic/tclIndexObj.c
+           generic/tclInt.decls
+           generic/tclInt.h
+           generic/tclIntDecls.h
+           generic/tclInterp.c
+           generic/tclLink.c
+           generic/tclListObj.c
+           generic/tclLiteral.c
+           generic/tclLoad.c
+           generic/tclLoadNone.c
+           generic/tclNotify.c
+           generic/tclOO.c
+           generic/tclOO.decls
+           generic/tclOO.h
+           generic/tclOOBasic.c
+           generic/tclOOCall.c
+           generic/tclOODefineCmds.c
+           generic/tclOOInfo.c
+           generic/tclOOInt.h
+           generic/tclOOMethod.c
+           generic/tclObj.c
+           generic/tclOptimize.c
+           generic/tclPanic.c
+           generic/tclParse.c
+           generic/tclPathObj.c
+           generic/tclPipe.c
+           generic/tclPort.h
+           generic/tclPosixStr.c
+           generic/tclPreserve.c
+           generic/tclProc.c
+           generic/tclRegexp.c
+           generic/tclRegexp.h
+           generic/tclResolve.c
+           generic/tclResult.c
+           generic/tclScan.c
+           generic/tclStrToD.c
+           generic/tclStringObj.c
+           generic/tclStringTrim.h
+           generic/tclStubInit.c
+           generic/tclStubLib.c
+           generic/tclTest.c
+           generic/tclTestObj.c
+           generic/tclTestProcBodyObj.c
+           generic/tclThread.c
+           generic/tclThreadJoin.c
+           generic/tclThreadStorage.c
+           generic/tclThreadTest.c
+           generic/tclTimer.c
+           generic/tclTomMath.decls
+           generic/tclTomMathDecls.h
+           generic/tclTomMathInterface.c
+           generic/tclTomMathStubLib.c
+           generic/tclTrace.c
+           generic/tclUtf.c
+           generic/tclUtil.c
+           generic/tclVar.c
+           library/auto.tcl
+           library/msgcat/msgcat.tcl
+           library/package.tcl
+           library/parray.tcl
+           macosx/GNUmakefile
+           macosx/Tcl-Common.xcconfig
+           macosx/Tcl-Debug.xcconfig
+           macosx/Tcl-Release.xcconfig
+           macosx/tclMacOSXBundle.c
+           macosx/tclMacOSXFCmd.c
+           macosx/tclMacOSXNotify.c
+           pkgs/itcl4.2.3/Makefile.in
+           pkgs/itcl4.2.3/generic/itcl.h
+           pkgs/itcl4.2.3/generic/itcl2TclOO.c
+           pkgs/itcl4.2.3/generic/itclBase.c
+           pkgs/itcl4.2.3/generic/itclHelpers.c
+           pkgs/itcl4.2.3/generic/itclInt.h
+           pkgs/itcl4.2.3/generic/itclStubs.c
+           pkgs/itcl4.2.3/tclconfig/tcl.m4
+           pkgs/itcl4.2.3/tools/genStubs.tcl
+           pkgs/itcl4.2.3/win/nmakehlp.c
+           pkgs/sqlite3.40.0/tclconfig/tcl.m4
+           pkgs/sqlite3.40.0/tests/all.tcl
+           pkgs/sqlite3.40.0/win/nmakehlp.c
+           pkgs/tdbc1.1.5/Makefile.in
+           pkgs/tdbc1.1.5/tclconfig/tcl.m4
+           pkgs/tdbc1.1.5/win/nmakehlp.c
+           pkgs/tdbcmysql1.1.5/Makefile.in
+           pkgs/tdbcmysql1.1.5/doc/tdbc_mysql.n
+           pkgs/tdbcmysql1.1.5/tclconfig/tcl.m4
+           pkgs/tdbcmysql1.1.5/win/nmakehlp.c
+           pkgs/tdbcodbc1.1.5/Makefile.in
+           pkgs/tdbcodbc1.1.5/doc/tdbc_odbc.n
+           pkgs/tdbcodbc1.1.5/tclconfig/tcl.m4
+           pkgs/tdbcodbc1.1.5/win/nmakehlp.c
+           pkgs/tdbcpostgres1.1.5/Makefile.in
+           pkgs/tdbcpostgres1.1.5/doc/tdbc_postgres.n
+           pkgs/tdbcpostgres1.1.5/library/tdbcpostgres.tcl
+           pkgs/tdbcpostgres1.1.5/tclconfig/tcl.m4
+           pkgs/tdbcpostgres1.1.5/win/nmakehlp.c
+           pkgs/tdbcsqlite3-1.1.5/Makefile.in
+           pkgs/tdbcsqlite3-1.1.5/doc/tdbc_sqlite3.n
+           pkgs/tdbcsqlite3-1.1.5/tclconfig/tcl.m4
+           pkgs/tdbcsqlite3-1.1.5/win/nmakehlp.c
+           pkgs/thread2.8.8/Makefile.in
+           pkgs/thread2.8.8/generic/tclThread.h
+           pkgs/thread2.8.8/generic/tclThreadInt.h
+           pkgs/thread2.8.8/generic/threadCmd.c
+           pkgs/thread2.8.8/generic/threadNs.c
+           pkgs/thread2.8.8/generic/threadPoolCmd.c
+           pkgs/thread2.8.8/generic/threadSpCmd.c
+           pkgs/thread2.8.8/generic/threadSvCmd.c
+           pkgs/thread2.8.8/generic/threadSvListCmd.c
+           pkgs/thread2.8.8/lib/ttrace.tcl
+           pkgs/thread2.8.8/tcl/cmdsrv/cmdsrv.tcl
+           pkgs/thread2.8.8/tcl/phttpd/phttpd.tcl
+           pkgs/thread2.8.8/tcl/phttpd/uhttpd.tcl
+           pkgs/thread2.8.8/tcl/tpool/tpool.tcl
+           pkgs/thread2.8.8/tclconfig/tcl.m4
+           pkgs/thread2.8.8/tests/thread.test
+           pkgs/thread2.8.8/unix/threadUnix.c
+           pkgs/thread2.8.8/win/nmakehlp.c
+           tests/aaa_exit.test
+           tests/all.tcl
+           tests/append.test
+           tests/appendComp.test
+           tests/apply.test
+           tests/assemble.test
+           tests/assocd.test
+           tests/async.test
+           tests/autoMkindex.test
+           tests/basic.test
+           tests/binary.test
+           tests/case.test
+           tests/chan.test
+           tests/chanio.test
+           tests/cmdAH.test
+           tests/cmdIL.test
+           tests/cmdInfo.test
+           tests/cmdMZ.test
+           tests/compExpr-old.test
+           tests/compExpr.test
+           tests/compile.test
+           tests/concat.test
+           tests/config.test
+           tests/coroutine.test
+           tests/dcall.test
+           tests/dstring.test
+           tests/encoding.test
+           tests/env.test
+           tests/error.test
+           tests/eval.test
+           tests/event.test
+           tests/execute.test
+           tests/expr-old.test
+           tests/expr.test
+           tests/fCmd.test
+           tests/fileName.test
+           tests/fileSystem.test
+           tests/for-old.test
+           tests/for.test
+           tests/foreach.test
+           tests/format.test
+           tests/get.test
+           tests/history.test
+           tests/http.test
+           tests/http11.test
+           tests/httpPipeline.test
+           tests/httpTest.tcl
+           tests/httpTestScript.tcl
+           tests/httpd11.tcl
+           tests/httpold.test
+           tests/if-old.test
+           tests/if.test
+           tests/incr-old.test
+           tests/incr.test
+           tests/indexObj.test
+           tests/init.test
+           tests/internals.tcl
+           tests/interp.test
+           tests/io.test
+           tests/ioCmd.test
+           tests/ioTrans.test
+           tests/join.test
+           tests/lindex.test
+           tests/link.test
+           tests/linsert.test
+           tests/list.test
+           tests/listObj.test
+           tests/llength.test
+           tests/load.test
+           tests/lrange.test
+           tests/lrepeat.test
+           tests/lreplace.test
+           tests/lsearch.test
+           tests/lset.test
+           tests/lsetComp.test
+           tests/macOSXFCmd.test
+           tests/macOSXLoad.test
+           tests/mathop.test
+           tests/misc.test
+           tests/namespace-old.test
+           tests/namespace.test
+           tests/notify.test
+           tests/nre.test
+           tests/obj.test
+           tests/oo.test
+           tests/ooNext2.test
+           tests/opt.test
+           tests/package.test
+           tests/parse.test
+           tests/parseExpr.test
+           tests/parseOld.test
+           tests/pid.test
+           tests/platform.test
+           tests/proc-old.test
+           tests/proc.test
+           tests/pwd.test
+           tests/regexp.test
+           tests/regexpComp.test
+           tests/rename.test
+           tests/resolver.test
+           tests/result.test
+           tests/safe-stock.test
+           tests/safe.test
+           tests/scan.test
+           tests/set-old.test
+           tests/set.test
+           tests/source.test
+           tests/split.test
+           tests/stack.test
+           tests/string.test
+           tests/stringComp.test
+           tests/stringObj.test
+           tests/subst.test
+           tests/switch.test
+           tests/tailcall.test
+           tests/timer.test
+           tests/trace.test
+           tests/unixFCmd.test
+           tests/unixFile.test
+           tests/unixForkEvent.test
+           tests/unixInit.test
+           tests/unixNotfy.test
+           tests/unknown.test
+           tests/unload.test
+           tests/uplevel.test
+           tests/upvar.test
+           tests/utf.test
+           tests/util.test
+           tests/var.test
+           tests/while-old.test
+           tests/while.test
+           tests/winConsole.test
+           tests/winDde.test
+           tests/winFCmd.test
+           tests/winFile.test
+           tests/winNotify.test
+           tests/winPipe.test
+           tests/winTime.test
+           tests/zlib.test
+           tools/findBadExternals.tcl
+           tools/fix_tommath_h.tcl
+           tools/genStubs.tcl
+           tools/man2tcl.c
+           unix/dltest/pkga.c
+           unix/dltest/pkgb.c
+           unix/dltest/pkgc.c
+           unix/dltest/pkgd.c
+           unix/dltest/pkge.c
+           unix/dltest/pkgooa.c
+           unix/dltest/pkgua.c
+           unix/tclAppInit.c
+           unix/tclLoadDl.c
+           unix/tclLoadDyld.c
+           unix/tclLoadNext.c
+           unix/tclLoadOSF.c
+           unix/tclLoadShl.c
+           unix/tclUnixChan.c
+           unix/tclUnixEvent.c
+           unix/tclUnixFile.c
+           unix/tclUnixNotfy.c
+           unix/tclUnixPipe.c
+           unix/tclUnixPort.h
+           unix/tclUnixSock.c
+           unix/tclUnixTest.c
+           unix/tclUnixThrd.c
+           unix/tclUnixThrd.h
+           unix/tclUnixTime.c
+           unix/tclXtNotify.c
+           unix/tclXtTest.c
+           win/cat.c
+           win/nmakehlp.c
+           win/tclAppInit.c
+           win/tclWin32Dll.c
+           win/tclWinChan.c
+           win/tclWinConsole.c
+           win/tclWinDde.c
+           win/tclWinError.c
+           win/tclWinFCmd.c
+           win/tclWinFile.c
+           win/tclWinInit.c
+           win/tclWinInt.h
+           win/tclWinLoad.c
+           win/tclWinNotify.c
+           win/tclWinPipe.c
+           win/tclWinPort.h
+           win/tclWinReg.c
+           win/tclWinSock.c
+           win/tclWinTest.c
+           win/tclWinThrd.c
+           win/tclWinTime.c
+Copyright: 1987-1994 The Regents of the University of California.
+           1991-1995 Karl Lehenbauer & Mark Diekhans.
+           1993-1997 Lucent Technologies.
+           1994-1998 Sun Microsystems, Inc.
+           1995 Apple Computer, Inc.
+           1995-1997 Sun Microsystems, Inc. Contributions from Don Porter, NIST, 2014. (not subject to US copyright)
+           1997 Lucent Technologies
+           1998 Lucent Technologies, Inc.
+           1998 Mark Harrison.
+           1998 Paul Duffin.
+           1998-2000 Ajuba Solutions
+           1998-2000 Ajuba Solutions.
+           1998-2000 Ajuba Solutions. Contributions from Don Porter, NIST, 2002. (not subject to US copyright)
+           1998-2000 Scriptics Corporation.
+           1998-2000 Scriptics Corporation. Contributions from Don Porter, NIST, 2003.  (not subject to US copyright)
+           1999 Scriptics Corp.
+           1999-2000 Andreas Kupries (a.kupries@westend.com)
+           1999-2000 Scriptics Corporation
+           2001-2004 Vincent Darley.
+           2001-2005 ActiveState Corporation.
+           2001-2009 Apple Inc.
+           2001-2009 Daniel A. Steffen <das@users.sourceforge.net>
+           2001-2010 Kevin B. Kenny.
+           2002 Andreas Kupries <andreas_kupries@users.sourceforge.net>
+           2002 David Gravereaux.
+           2002-2004 Zoran Vasiljevic.
+           2002-2010 Miguel Sofer.
+           2002-2016 Donal K. Fellows.
+           2003 Simon Geard.
+           2003 Tcl Core Team.
+           2003 Vince Darley.
+           2003 Zoran Vasiljevic, Archiware GmbH.
+           2003-2004 Georgios Petasis
+           2003-2004 Joe Mistachkin
+           2004-2005 ActiveState, a divison of Sophos
+           2004-2007 Miguel Sofer
+           2004-2013 Donal K. Fellows
+           2005 George Peter Staplin and Kevin Kenny
+           2006 Pat Thoyts
+           2006 Peter Spjuth
+           2006 Sam Bromley.
+           2006-2007 Arnulf P. Wiedemann
+           2006-2008 Joe Mistachkin.
+           2007 Andreas Kupries <andreask@activestate.com> <akupries@shaw.ca>
+           2007-2008 ActiveState.
+           2008 George Peter Staplin
+           2008 Miguel Sofer <msofer@users.sourceforge.net>
+           2009 Pat Thoyts <patthoyts@users.sourceforge.net>
+           2009 Slawomir Cygan
+           2010 Ozgur Dogan Ugurlu.
+           2010-2015 Harald Oehlmann.
+           2011 Gustaf Neumann <gustaf.neumann@wu.ac.at>
+           2011 Stefan Sobernig <stefan.sobernig@wu.ac.at>
+           2013 Donal Fellows.
+           2017 Nathan Coulter
+           2018 Keith Nash <kjnash@users.sourceforge.net>
+           2020 Sergey G. Brester (sebres).
+           Stephen Uhler / Brent Welch (c) 1996 Sun Microsystems.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+
+Files:     compat/zlib/amiga/Makefile.pup
+           compat/zlib/contrib/infback9/infback9.c
+           compat/zlib/contrib/infback9/inftree9.c
+           compat/zlib/examples/zran.h
+           compat/zlib/gzclose.c
+           compat/zlib/gzguts.h
+           compat/zlib/gzlib.c
+           compat/zlib/gzread.c
+           compat/zlib/gzwrite.c
+           compat/zlib/inffast.c
+           compat/zlib/inftrees.c
+           compat/zlib/trees.c
+           doc/NRE.3
+           doc/clock.n
+           doc/expr.n
+           doc/mathfunc.n
+           generic/tclIntPlatDecls.h
+           generic/tclPkg.c
+           generic/tclPlatDecls.h
+           library/clock.tcl
+           library/http/http.tcl
+           library/tcltest/tcltest.tcl
+           pkgs/itcl4.2.3/tests/all.tcl
+           pkgs/itcl4.2.3/win/rules.vc
+           pkgs/sqlite3.40.0/win/rules.vc
+           pkgs/tdbc1.1.5/doc/Tdbc_Init.3
+           pkgs/tdbc1.1.5/doc/tdbc.n
+           pkgs/tdbc1.1.5/doc/tdbc_connection.n
+           pkgs/tdbc1.1.5/doc/tdbc_mapSqlState.n
+           pkgs/tdbc1.1.5/doc/tdbc_resultset.n
+           pkgs/tdbc1.1.5/doc/tdbc_statement.n
+           pkgs/tdbc1.1.5/doc/tdbc_tokenize.n
+           pkgs/tdbc1.1.5/tests/tdbc.test
+           pkgs/tdbc1.1.5/tools/tdbc-man2html.tcl
+           pkgs/tdbc1.1.5/win/rules.vc
+           pkgs/tdbcmysql1.1.5/win/rules.vc
+           pkgs/tdbcodbc1.1.5/win/rules.vc
+           pkgs/tdbcpostgres1.1.5/tests/tdbcpostgres.test
+           pkgs/tdbcpostgres1.1.5/win/rules.vc
+           pkgs/tdbcsqlite3-1.1.5/win/rules.vc
+           pkgs/thread2.8.8/tests/all.tcl
+           pkgs/thread2.8.8/win/rules.vc
+           tests/fileSystemEncoding.test
+           tests/iogt.test
+           tests/pkgMkIndex.test
+           tests/reg.test
+           tests/registry.test
+           tests/security.test
+           tests/tm.test
+           tools/checkLibraryDoc.tcl
+           tools/installData.tcl
+           tools/loadICU.tcl
+           tools/regexpTestLib.tcl
+           tools/tclZIC.tcl
+           tools/tcltk-man2html-utils.tcl
+           tools/tcltk-man2html.tcl
+           tools/uniParse.tcl
+           unix/tclUnixInit.c
+           win/makefile.vc
+           win/rules.vc
+Copyright: 1994-1997 Sun Microsystems, Inc.
+           1995-1997 Roger E. Critchlow Jr
+           1995-2021 Jean-loup Gailly
+           1995-2022 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           1998 Andreas R. Kleinert
+           1998-1999 Henry Spencer.
+           1998-1999 Scriptics Corporation.
+           1998-2000 Ajuba Solutions
+           1998-2000 Ajuba Solutions.
+           2000 Ajuba Solutions Contributions from Don Porter, NIST, 2002.  (not subject to US copyright)
+           2000 Andreas Kupries.
+           2001-2004 David Gravereaux.
+           2001-2005 ActiveState Corporation.
+           2003-2008 Pat Thoyts.
+           2003-2008 Patrick Thoyts
+           2004 Donal K. Fellows.
+           2004 Kevin B. Kenny. See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+           2004-2007 Kevin B. Kenny See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+           2004-2011 Donal K. Fellows
+           2005-2018 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h Version 1.2  14 Oct 2018  Mark Adler
+           2008 Slawomir Cygan See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+           2008-2009 Kevin B. Kenny.
+           2008-2009 Kevin B. Kenny. '\" Local Variables: '\" mode: nroff '\" End: '\"
+           2009 Kevin B. Kenny. .\" Local Variables: .\" mode: nroff .\" End: .\"
+           2017 Ashok P. Nadkarni
+           2018 Nathan Coulter.
+           2019 Poor Yorick
+           The transaction is already downgraded to 1.0 to avoid chunked transfer encoding.  It MUST also be forced to "Connection: close" or the HTTP/1.0 equivalent; or it MUST fail (as above) if the server sends "Connection: keep-alive" or the HTTP/1.0 equivalent.
+           \(co 1993 The Regents of the University of California.
+           \(co 1994-2000 Sun Microsystems Incorporated.
+           \(co 2004 Kevin B. Kenny <kennykb@acm.org>. '\" Local Variables: '\" mode: nroff '\" End:
+           \(co 2005 Kevin B. Kenny <kennykb@acm.org>. .fi '\" Local Variables: '\" mode: nroff '\" fill-column: 78 '\" End:
+           \(co 2005, 2006 Kevin B. Kenny <kennykb@acm.org>. .fi '\" Local Variables: '\" mode: nroff '\" fill-column: 78 '\" End:
+License:   __NO_LICENSE__
+
+Files:     compat/license.terms
+           doc/license.terms
+           library/license.terms
+           license.terms
+           macosx/license.terms
+           pkgs/itcl4.2.3/license.terms
+           pkgs/tdbc1.1.5/license.terms
+           pkgs/tdbcmysql1.1.5/license.terms
+           pkgs/tdbcodbc1.1.5/license.terms
+           pkgs/tdbcpostgres1.1.5/license.terms
+           pkgs/tdbcsqlite3-1.1.5/license.terms
+           pkgs/thread2.8.8/license.terms
+           tests/license.terms
+           win/license.terms
+Copyright: __NO_COPYRIGHT__ in: compat/license.terms
+           __NO_COPYRIGHT__ in: doc/license.terms
+           __NO_COPYRIGHT__ in: library/license.terms
+           __NO_COPYRIGHT__ in: license.terms
+           __NO_COPYRIGHT__ in: macosx/license.terms
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/license.terms
+           __NO_COPYRIGHT__ in: pkgs/tdbc1.1.5/license.terms
+           __NO_COPYRIGHT__ in: pkgs/tdbcmysql1.1.5/license.terms
+           __NO_COPYRIGHT__ in: pkgs/tdbcodbc1.1.5/license.terms
+           __NO_COPYRIGHT__ in: pkgs/tdbcpostgres1.1.5/license.terms
+           __NO_COPYRIGHT__ in: pkgs/tdbcsqlite3-1.1.5/license.terms
+           __NO_COPYRIGHT__ in: pkgs/thread2.8.8/license.terms
+           __NO_COPYRIGHT__ in: tests/license.terms
+           __NO_COPYRIGHT__ in: win/license.terms
+License:   __UNKNOWN__
+ permission to use and distribute the software in accordance with the
+ terms specified in this license.
+
+Files:     macosx/configure
+           pkgs/itcl4.2.3/configure
+           pkgs/sqlite3.40.0/configure
+           pkgs/tdbc1.1.5/configure
+           pkgs/tdbcmysql1.1.5/configure
+           pkgs/tdbcodbc1.1.5/configure
+           pkgs/tdbcpostgres1.1.5/configure
+           pkgs/tdbcsqlite3-1.1.5/configure
+           pkgs/thread2.8.8/configure
+           tools/configure
+           unix/configure
+           win/configure
+Copyright: 1992-2021 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+Files:     pkgs/itcl4.2.3/tclconfig/install-sh
+           pkgs/sqlite3.40.0/tclconfig/install-sh
+           pkgs/tdbc1.1.5/tclconfig/install-sh
+           pkgs/tdbcmysql1.1.5/tclconfig/install-sh
+           pkgs/tdbcodbc1.1.5/tclconfig/install-sh
+           pkgs/tdbcpostgres1.1.5/tclconfig/install-sh
+           pkgs/tdbcsqlite3-1.1.5/tclconfig/install-sh
+           pkgs/thread2.8.8/tclconfig/install-sh
+           unix/install-sh
+Copyright: 1994 X Consortium
+License:   MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+ TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not
+ be used in advertising or otherwise to promote the sale, use or other deal-
+ ings in this Software without prior written authorization from the X Consor-
+ tium.
+ .
+ FSF changes to this file are in the public domain.
+ .
+ Calling this script install-sh is preferred over install.sh, to prevent
+ 'make' implicit rules from creating a file called install from it
+ when there is no Makefile.
+ .
+ This script is compatible with the BSD install script, but was written
+ from scratch.
+
+Files:     compat/zlib/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+           compat/zlib/contrib/dotzlib/DotZLib/CircularBuffer.cs
+           compat/zlib/contrib/dotzlib/DotZLib/CodecBase.cs
+           compat/zlib/contrib/dotzlib/DotZLib/Deflater.cs
+           compat/zlib/contrib/dotzlib/DotZLib/DotZLib.cs
+           compat/zlib/contrib/dotzlib/DotZLib/GZipStream.cs
+           compat/zlib/contrib/dotzlib/DotZLib/Inflater.cs
+           compat/zlib/contrib/dotzlib/DotZLib/UnitTests.cs
+           compat/zlib/contrib/dotzlib/readme.txt
+Copyright: 2004 Henrik Ravn
+License:   __UNKNOWN__
+ Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+
+Files:     compat/zlib/adler32.c
+           compat/zlib/compress.c
+           compat/zlib/test/example.c
+           compat/zlib/uncompr.c
+           compat/zlib/zconf.h
+           compat/zlib/zconf.h.cmakein
+           compat/zlib/zconf.h.in
+           compat/zlib/zutil.c
+Copyright: 1995-2016 Jean-loup Gailly, Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           1995-2016 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           1995-2017 Jean-loup Gailly For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ @(#) $Id$
+
+Files:     pkgs/itcl4.2.3/generic/itclBuiltin.c
+           pkgs/itcl4.2.3/generic/itclCmd.c
+           pkgs/itcl4.2.3/generic/itclEnsemble.c
+           pkgs/itcl4.2.3/generic/itclInfo.c
+           pkgs/itcl4.2.3/generic/itclLinkage.c
+           pkgs/itcl4.2.3/generic/itclMethod.c
+           pkgs/itcl4.2.3/generic/itclParse.c
+           pkgs/itcl4.2.3/generic/itclUtil.c
+Copyright: __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclBuiltin.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclCmd.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclEnsemble.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclInfo.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclLinkage.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclMethod.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclParse.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclUtil.c
+License:   __UNKNOWN__
+ overhauled version author: Arnulf Wiedemann
+
+Files:     compat/zlib/contrib/minizip/ioapi.c
+           compat/zlib/contrib/minizip/ioapi.h
+           compat/zlib/contrib/minizip/iowin32.c
+           compat/zlib/contrib/minizip/iowin32.h
+           compat/zlib/contrib/minizip/zip.c
+           compat/zlib/contrib/minizip/zip.h
+Copyright: 1998-2010 Gilles Vollant (minizip) ( http://www.winimage.com/zLibDll/minizip.html )
+License:   __UNKNOWN__
+ Modifications for Zip64 support
+ Copyright (C) 2009-2010 Mathias Svensson ( http://result42.com )
+
+Files:     pkgs/tdbcmysql1.1.5/generic/mysqlStubInit.c
+           pkgs/tdbcmysql1.1.5/generic/tdbcmysql.c
+           pkgs/tdbcodbc1.1.5/generic/odbcStubInit.c
+           pkgs/tdbcodbc1.1.5/generic/tdbcodbc.c
+           pkgs/tdbcpostgres1.1.5/generic/pqStubInit.c
+           pkgs/tdbcpostgres1.1.5/generic/tdbcpostgres.c
+Copyright: 2008-2011 Kevin B. Kenny.
+           2009 Slawomir Cygan.
+License:   __UNKNOWN__
+ Please refer to the file, 'license.terms' for the conditions on
+ redistribution of this file and for a DISCLAIMER OF ALL WARRANTIES.
+
+Files:     compat/zlib/contrib/ada/buffer_demo.adb
+           compat/zlib/contrib/ada/zlib-streams.adb
+           compat/zlib/contrib/ada/zlib-streams.ads
+           compat/zlib/contrib/ada/zlib-thin.adb
+           compat/zlib/contrib/ada/zlib-thin.ads
+           compat/zlib/contrib/ada/zlib.adb
+Copyright: 2002-2004 Dmitriy Anisimkov                 -- --
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+
+Files:     pkgs/tdbcmysql1.1.5/tests/all.tcl
+           pkgs/tdbcodbc1.1.5/tests/all.tcl
+           pkgs/tdbcpostgres1.1.5/tests/all.tcl
+           pkgs/tdbcsqlite3-1.1.5/tests/all.tcl
+Copyright: 1998-2000 Scriptics Corporation.
+License:   __UNKNOWN__
+ RCS: @(#) $Id: all.tcl,v 1.4 2004/07/04 22:04:20 patthoyts Exp $
+
+Files:     compat/zlib/contrib/minizip/miniunz.c
+           compat/zlib/contrib/minizip/minizip.c
+           compat/zlib/contrib/minizip/unzip.c
+           compat/zlib/contrib/minizip/unzip.h
+Copyright: 1998-2010 Gilles Vollant (minizip) ( http://www.winimage.com/zLibDll/minizip.html )
+License:   __UNKNOWN__
+ Modifications of Unzip for Zip64
+ Copyright (C) 2007-2008 Even Rouault
+ .
+ Modifications for Zip64 support on both zip and unzip
+ Copyright (C) 2009-2010 Mathias Svensson ( http://result42.com )
+
+Files:     generic/regcomp.c
+           generic/regerror.c
+           generic/regexec.c
+           generic/regfronts.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results. The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files:     pkgs/tdbc1.1.5/generic/tdbc.decls
+           pkgs/tdbc1.1.5/generic/tdbc.h
+           pkgs/tdbc1.1.5/generic/tdbcInt.h
+           pkgs/tdbc1.1.5/generic/tdbcStubInit.c
+Copyright: 2006 Kevin B. Kenny
+           2008 Kevin B. Kenny.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ RCS: @(#) $Id$
+
+Files:     pkgs/thread2.8.8/generic/threadSpCmd.h
+           pkgs/thread2.8.8/generic/threadSvCmd.h
+           pkgs/thread2.8.8/generic/threadSvListCmd.h
+Copyright: 2002 Zoran Vasiljevic.
+License:   __UNKNOWN__
+ See the file "license.txt" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+
+Files:     pkgs/tdbc1.1.5/generic/tdbc.c
+           pkgs/tdbc1.1.5/generic/tdbcStubLib.c
+           pkgs/tdbc1.1.5/generic/tdbcTokenize.c
+Copyright: 2007 D. Richard Hipp.
+           2008-2011 Kevin B. Kenny.
+License:   __UNKNOWN__
+ Please refer to the file, 'license.terms' for the conditions on
+ redistribution of this file and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ RCS: @(#) $Id$
+
+Files:     pkgs/tdbcodbc1.1.5/library/tdbcodbc.tcl
+           pkgs/tdbcodbc1.1.5/tests/tdbcodbc.test
+           pkgs/tdbcsqlite3-1.1.5/library/tdbcsqlite3.tcl
+Copyright: 2008 Kevin B. Kenny See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+           2008 Kevin B. Kenny. See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+License:   __UNKNOWN__
+ RCS: @(#) $Id: tdbcodbc.tcl,v 1.47 2008/02/27 02:08:27 kennykb Exp $
+
+Files:     pkgs/thread2.8.8/generic/tclXkeylist.c
+           pkgs/thread2.8.8/generic/tclXkeylist.h
+Copyright: 1991-1999 Karl Lehenbauer and Mark Diekhans.
+License:   ISC
+ Permission to use, copy, modify, and distribute this software and its
+ documentation for any purpose and without fee is hereby granted, provided
+ that the above copyright notice appear in all copies.  Karl Lehenbauer and
+ Mark Diekhans make no representations about the suitability of this
+ software for any purpose.  It is provided "as is" without express or
+ implied warranty.
+
+Files:     compat/zlib/contrib/infback9/inftree9.h
+           compat/zlib/inftrees.h
+Copyright: 1995-2010 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+ .
+ Structure for decoding tables.  Each entry provides either the
+ information needed to do the operation requested by the code that
+ indexed that table entry, or it provides a pointer to another
+ table that indexes more bits of the code.  op indicates whether
+ the entry is a pointer to another table, a literal, a length or
+ distance, an end-of-block, or an invalid code.  For a table
+ pointer, the low four bits of op is the number of index bits of
+ that table.  For a length or distance, the low four bits of op
+ is the number of extra bits to get after the code.  bits is
+ the number of bits in this code or part of the code to drop off
+ of the bit buffer.  val is the actual byte to output in the case
+ of a literal, the base length or distance, or the offset from
+ the current table to the next table.  Each entry is four bytes.
+
+Files:     pkgs/tdbc1.1.5/library/tdbc.tcl
+           pkgs/tdbc1.1.5/tests/all.tcl
+Copyright: 1998-2000 Scriptics Corporation.
+           2008 Kevin B. Kenny See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+License:   __UNKNOWN__
+ RCS: @(#) $Id$
+
+Files:     compat/zlib/inffast.h
+           compat/zlib/inflate.h
+Copyright: 1995-2019 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+
+Files:     compat/zlib/msdos/Makefile.emx
+           compat/zlib/old/Makefile.emx
+Copyright: 1995-1998 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile, or to compile and test, type:
+ .
+ make -fmakefile.emx;  make test -fmakefile.emx
+
+Files:     compat/zlib/deflate.h
+           compat/zlib/zutil.h
+Copyright: 1995-2018 Jean-loup Gailly For conditions of distribution and use, see copyright notice in zlib.h
+           1995-2022 Jean-loup Gailly, Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+ .
+ @(#) $Id$
+
+Files:     pkgs/tdbcmysql1.1.5/library/tdbcmysql.tcl
+           pkgs/tdbcmysql1.1.5/tests/tdbcmysql.test
+Copyright: 2008 Kevin B. Kenny See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+License:   __UNKNOWN__
+ RCS: @(#) $Id: tdbcmysql.tcl,v 1.47 2008/02/27 02:08:27 kennykb Exp $
+
+Files:     pkgs/itcl4.2.3/generic/itclClass.c
+           pkgs/itcl4.2.3/generic/itclObject.c
+Copyright: __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclClass.c
+           __NO_COPYRIGHT__ in: pkgs/itcl4.2.3/generic/itclObject.c
+License:   __UNKNOWN__
+ overhauled version author: Arnulf Wiedemann Copyright (c) 2007
+
+Files:     compat/fake-rfc2553.c
+           compat/fake-rfc2553.h
+Copyright: 1999 WIDE Project.
+           2000-2003 Damien Miller.
+License:   BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the project nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE PROJECT AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE PROJECT OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+ .
+ Pseudo-implementation of RFC2553 name / address resolution functions
+ .
+ But these functions are not implemented correctly. The minimum subset
+ is implemented for ssh use only. For example, this routine assumes
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
+
+Files:     compat/zlib/README
+Copyright: 1995-2022 Jean-loup Gailly and Mark Adler
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Jean-loup Gailly        Mark Adler
+ jloup@gzip.org          madler@alumni.caltech.edu
+ .
+ If you use the zlib library in a product, we would appreciate *not* receiving
+ lengthy legal documents to sign.  The sources are provided for free but without
+ warranty of any kind.  The library has been entirely written by Jean-loup
+ Gailly and Mark Adler; it does not include third-party code.  We make all
+ contributions to and distributions of this project solely in our personal
+ capacity, and are not conveying any rights to any intellectual property of
+ any third parties.
+ .
+ If you redistribute modified sources, we would appreciate that you include in
+ the file ChangeLog history information documenting your changes.  Please read
+ the FAQ for more information on the distribution of modified source versions.
+
+Files:     compat/zlib/win32/README.txt
+Copyright: 1995-2017 Jean-loup Gailly and Mark Adler
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Jean-loup Gailly        Mark Adler
+ jloup@gzip.org          madler@alumni.caltech.edu
+
+Files:     compat/zlib/zlib.h
+Copyright: 1995-2022 Jean-loup Gailly and Mark Adler
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Jean-loup Gailly        Mark Adler
+ jloup@gzip.org          madler@alumni.caltech.edu
+ .
+ The data format used by the zlib library is described by RFCs (Request for
+ Comments) 1950 to 1952 in the files http://tools.ietf.org/html/rfc1950
+ (zlib format), rfc1951 (deflate format) and rfc1952 (gzip format).
+
+Files:     compat/zlib/win32/README-WIN32.txt
+Copyright: 1995-2017 Jean-loup Gailly and Mark Adler
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Jean-loup Gailly        Mark Adler
+ jloup@gzip.org          madler@alumni.caltech.edu
+ .
+ If you use the zlib library in a product, we would appreciate *not* receiving
+ lengthy legal documents to sign.  The sources are provided for free but without
+ warranty of any kind.  The library has been entirely written by Jean-loup
+ Gailly and Mark Adler; it does not include third-party code.
+ .
+ If you redistribute modified sources, we would appreciate that you include in
+ the file ChangeLog history information documenting your changes.  Please read
+ the FAQ for more information on the distribution of modified source versions.
+
+Files:     compat/zlib/contrib/minizip/MiniZip64_info.txt
+Copyright: __NO_COPYRIGHT__ in: compat/zlib/contrib/minizip/MiniZip64_info.txt
+License:   Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files:     compat/zlib/examples/gzlog.c
+Copyright: 2004-2019 Mark Adler, For conditions of distribution and use, see copyright notice in gzlog.h version 2.3, 25 May 2019
+License:   __HEADER___
+ gzlog provides a mechanism for frequently appending short strings to a gzip
+ file that is efficient both in execution time and compression ratio.  The
+ strategy is to write the short strings in an uncompressed form to the end of
+ the gzip file, only compressing when the amount of uncompressed data has
+ reached a given threshold.
+ .
+ gzlog also provides protection against interruptions in the process due to
+ system crashes.  The status of the operation is recorded in an extra field
+ in the gzip file, and is only updated once the gzip file is brought to a
+ valid state.  The last data to be appended or compressed is saved in an
+ auxiliary file, so that if the operation is interrupted, it can be completed
+ the next time an append operation is attempted.
+ .
+ gzlog maintains another auxiliary file with the last 32K of data from the
+ compressed portion, which is preloaded for the compression of the subsequent
+ data.  This minimizes the impact to the compression ratio of appending.
+ .
+ Operations Concept:
+ .
+ Files (log name "foo"):
+ foo.gz -- gzip file with the complete log
+ foo.add -- last message to append or last data to compress
+ foo.dict -- dictionary of the last 32K of data for next compression
+ foo.temp -- temporary dictionary file for compression after this one
+ foo.lock -- lock file for reading and writing the other files
+ foo.repairs -- log file for log file recovery operations (not compressed)
+ .
+ gzip file structure:
+ - fixed-length (no file name) header with extra field (see below)
+ - compressed data ending initially with empty stored block
+ - uncompressed data filling out originally empty stored block and
+ subsequent stored blocks as needed (16K max each)
+ - gzip trailer
+ - no junk at end (no other gzip streams)
+ .
+ When appending data, the information in the first three items above plus the
+ foo.add file are sufficient to recover an interrupted append operation.  The
+ extra field has the necessary information to restore the start of the last
+ stored block and determine where to append the data in the foo.add file, as
+ well as the crc and length of the gzip data before the append operation.
+ .
+ The foo.add file is created before the gzip file is marked for append, and
+ deleted after the gzip file is marked as complete.  So if the append
+ operation is interrupted, the data to add will still be there.  If due to
+ some external force, the foo.add file gets deleted between when the append
+ operation was interrupted and when recovery is attempted, the gzip file will
+ still be restored, but without the appended data.
+ .
+ When compressing data, the information in the first two items above plus the
+ foo.add file are sufficient to recover an interrupted compress operation.
+ The extra field has the necessary information to find the end of the
+ compressed data, and contains both the crc and length of just the compressed
+ data and of the complete set of data including the contents of the foo.add
+ file.
+ .
+ Again, the foo.add file is maintained during the compress operation in case
+ of an interruption.  If in the unlikely event the foo.add file with the data
+ to be compressed is missing due to some external force, a gzip file with
+ just the previous compressed data will be reconstructed.  In this case, all
+ of the data that was to be compressed is lost (approximately one megabyte).
+ This will not occur if all that happened was an interruption of the compress
+ operation.
+ .
+ The third state that is marked is the replacement of the old dictionary with
+ the new dictionary after a compress operation.  Once compression is
+ complete, the gzip file is marked as being in the replace state.  This
+ completes the gzip file, so an interrupt after being so marked does not
+ result in recompression.  Then the dictionary file is replaced, and the gzip
+ file is marked as completed.  This state prevents the possibility of
+ restarting compression with the wrong dictionary file.
+ .
+ All three operations are wrapped by a lock/unlock procedure.  In order to
+ gain exclusive access to the log files, first a foo.lock file must be
+ exclusively created.  When all operations are complete, the lock is
+ released by deleting the foo.lock file.  If when attempting to create the
+ lock file, it already exists and the modify time of the lock file is more
+ than five minutes old (set by the PATIENCE define below), then the old
+ lock file is considered stale and deleted, and the exclusive creation of
+ the lock file is retried.  To assure that there are no false assessments
+ of the staleness of the lock file, the operations periodically touch the
+ lock file to update the modified date.
+ .
+ Following is the definition of the extra field with all of the information
+ required to enable the above append and compress operations and their
+ recovery if interrupted.  Multi-byte values are stored little endian
+ (consistent with the gzip format).  File pointers are eight bytes long.
+ The crc's and lengths for the gzip trailer are four bytes long.  (Note that
+ the length at the end of a gzip file is used for error checking only, and
+ for large files is actually the length modulo 2^32.)  The stored block
+ length is two bytes long.  The gzip extra field two-byte identification is
+ "ap" for append.  It is assumed that writing the extra field to the file is
+ an "atomic" operation.  That is, either all of the extra field is written
+ to the file, or none of it is, if the operation is interrupted right at the
+ point of updating the extra field.  This is a reasonable assumption, since
+ the extra field is within the first 52 bytes of the file, which is smaller
+ than any expected block size for a mass storage device (usually 512 bytes or
+ larger).
+ .
+ Extra field (35 bytes):
+ - Pointer to first stored block length -- this points to the two-byte length
+ of the first stored block, which is followed by the two-byte, one's
+ complement of that length.  The stored block length is preceded by the
+ three-bit header of the stored block, which is the actual start of the
+ stored block in the deflate format.  See the bit offset field below.
+ - Pointer to the last stored block length.  This is the same as above, but
+ for the last stored block of the uncompressed data in the gzip file.
+ Initially this is the same as the first stored block length pointer.
+
+Files:     compat/unistd.h
+Copyright: 1989 Regents of the University of California Permission to use, copy, modify, and distribute this software and its documentation for any
+License:   __UNKNOWN__
+ purpose and without fee is hereby granted, provided that the above
+ copyright notice appear in all copies. The University of California makes
+ no representations about the suitability of this software for any purpose.
+ It is provided "as is" without express or implied warranty.
+
+Files:     compat/zlib/examples/gzjoin.c
+Copyright: 2004-2012 Mark Adler, version 1.2, 14 Aug 2012
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ Change history:
+ .
+ 1.0  11 Dec 2004     - First version
+
+Files:     compat/zlib/contrib/puff/pufftest.c
+Copyright: 2002-2013 Mark Adler For conditions of distribution and use, see copyright notice in puff.h version 2.3, 21 Jan 2013
+License:   __UNKNOWN__
+ Example of how to use puff().
+
+Files:     compat/zlib/test/minigzip.c
+Copyright: 1995-2016 Jean-loup Gailly For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ minigzip is a minimal implementation of the gzip utility. This is
+ only an example of using zlib and isn't meant to replace the
+ full-featured gzip. No attempt is made to deal with file systems
+ limiting names to 14 or 8+3 characters, etc... Error checking is
+ very limited. So use minigzip only for testing; use gzip for the
+ real thing. On MSDOS, use only on file names without extension
+ or in pipe mode.
+ .
+ @(#) $Id$
+
+Files:     library/word.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+           1998 Scritpics Corporation.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ The following variables are used to determine which characters are
+ interpreted as white space.
+
+Files:     generic/tclUniData.c
+Copyright: 1998 Scriptics Corporation.
+License:   __UNKNOWN__
+ A 16-bit Unicode character is split into two parts in order to index
+
+Files:     tests/exec.test
+Copyright: 1991-1994 The Regents of the University of California.
+           1994-1997 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ There is no point in running Valgrind on cases where [exec] forks but then
+ fails and the child process doesn't go through full cleanup.
+
+Files:     compat/zlib/Makefile.in
+Copyright: 1995-2017 Jean-loup Gailly, Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile and test, type:
+ ./configure; make test
+ Normally configure builds both a static and a shared library.
+ If you want to build just a static library, use: ./configure --static
+ .
+ To install /usr/local/lib/libz.* and /usr/local/include/zlib.h, type:
+ make install
+ To install in $HOME instead of /usr/local, use:
+
+Files:     compat/zlib/contrib/infback9/infback9.h
+Copyright: 2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ This header file and associated patches provide a decoder for PKWare's
+ undocumented deflate64 compression method (method 9).  Use with infback9.c,
+ inftree9.h, inftree9.c, and inffix9.h.  These patches are not supported.
+ This should be compiled with zlib, since it uses zutil.h and zutil.o.
+ This code has not yet been tested on 16-bit architectures.  See the
+ comments in zlib.h for inflateBack() usage.  These functions are used
+ identically, except that there is no windowBits parameter, and a 64K
+ window must be provided.  Also if int's are 16 bits, then a zero for
+ the third parameter of the "out" function actually means 65536UL.
+ zlib.h must be included before this header file.
+
+Files:     library/history.tcl
+Copyright: 1997 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ The tcl::history array holds the history list and some additional
+ bookkeeping variables.
+ .
+ nextid	the index used for the next history list item.
+ keep		the max size of the history list
+ oldest	the index of the oldest item in the history.
+
+Files:     compat/zlib/contrib/ada/readme.txt
+Copyright: __NO_COPYRIGHT__ in: compat/zlib/contrib/ada/readme.txt
+License:   __UNKNOWN__
+ Contributors: Pascal Obry <pascal@obry.org>, Steve Sangwine <sjs@essex.ac.uk>
+
+Files:     tests/lmap.test
+Copyright: 1991-1993 The Regents of the University of California.
+           1994-1997 Sun Microsystems, Inc.
+           2011 Trevor Davel
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ RCS: @(#) $Id: $
+
+Files:     tools/man2help2.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Global variables used by these scripts:
+ .
+ state -	state variable that controls action of text proc.
+ .
+ topics -	array indexed by (package,section,topic) with value
+ of topic ID.
+ .
+ keywords -	array indexed by keyword string with value of topic ID.
+ .
+ curID - 	current topic ID, starts at 0 and is incremented for
+ each new topic file.
+ .
+ curPkg -	current package name (e.g. Tcl).
+ .
+ curSect -	current section title (e.g. "Tcl Built-In Commands").
+ .
+ initGlobals --
+ .
+ This procedure is invoked to set the initial values of all of the
+ global variables, before processing a man page.
+ .
+ Arguments:
+ None.
+
+Files:     generic/tclZlib.c
+Copyright: 2004-2005 Pascal Scheffers <pascal@scheffers.net>
+           2005 Unitas Software B.V.
+           2008-2012 Donal K. Fellows
+License:   __UNKNOWN__
+ Parts written by Jean-Claude Wippler, as part of Tclkit, placed in the
+ public domain March 2003.
+ .
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+
+Files:     pkgs/itcl4.2.3/tests/mkindex.itcl
+Copyright: 1993-1998 Lucent Technologies, Inc.
+License:   __UNKNOWN__
+ Should be able to handle simple class definitions, even if
+ they are prefaced with white space.
+
+Files:     pkgs/sqlite3.40.0/Makefile.in
+Copyright: 1999 Scriptics Corporation.
+           2002-2005 ActiveState Corporation.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ RCS: @(#) $Id: Makefile.in,v 1.59 2005/07/26 19:17:02 mdejong Exp $
+
+Files:     pkgs/tdbcsqlite3-1.1.5/tests/tdbcsqlite3.test
+Copyright: 2008 Kevin B. Kenny See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+License:   __UNKNOWN__
+ RCS: @(#) $Id: tdbcsqlite3.tcl,v 1.47 2008/02/27 02:08:27 kennykb Exp $
+
+Files:     tests/info.test
+Copyright: 1991-1994 The Regents of the University of California.
+           1994-1997 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+           2006 ActiveState
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ DO NOT DELETE THIS LINE
+
+Files:     unix/tclLoadAix.c
+Copyright: 1992-1996 Jens-Uwe Mager, Helios Software GmbH Not derived from licensed software.
+License:   __UNKNOWN__
+ Permission is granted to freely use, copy, modify, and redistribute
+ this software, provided that the author is not construed to be liable
+ for any results of using the software, alterations are clearly marked
+ as such, and this notice is not modified.
+ .
+ Note: this file has been altered from the original in a few ways in order
+ to work properly with Tcl.
+ .
+ @(#)dlfcn.c	1.7 revision of 95/08/14  19:08:38
+ This is an unpublished work copyright (c) 1992 HELIOS Software GmbH
+ 30159 Hannover, Germany
+
+Files:     tests/msgcat.test
+Copyright: 1998 Mark Harrison.
+           1998-1999 Scriptics Corporation. Contributions from Don Porter, NIST, 2002.  (not subject to US copyright)
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Note that after running these tests, entries will be left behind in the
+
+Files:     doc/fconfigure.n
+Copyright: __NO_COPYRIGHT__ in: doc/fconfigure.n
+License:   __UNKNOWN__
+ The end of a line in the underlying file or device is represented by a
+ single carriage return character.  As the input translation mode,
+ .
+ output translation mode, \fBcr\fR mode translates newline characters to
+ carriage returns.
+ .TP
+ .
+ The end of a line in the underlying file or device is represented by a
+ carriage return character followed by a linefeed character.  As the input
+ translation mode, \fBcrlf\fR mode converts carriage-return-linefeed
+ sequences to newline characters.  As the output translation mode,
+ .
+ sequences.  This mode is typically used on Windows platforms and for
+ network connections.
+ .TP
+ .
+ The end of a line in the underlying file or device is represented by a
+ single newline (linefeed) character.  In this mode no translations occur
+ during either input or output.  This mode is typically used on UNIX
+ platforms.
+ .RE
+ .PP
+
+Files:     generic/regc_locale.c
+Copyright: 1998 Scriptics Corporation.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ ASCII character-name table
+
+Files:     compat/zlib/contrib/puff/puff.c
+Copyright: 2002-2013 Mark Adler For conditions of distribution and use, see copyright notice in puff.h version 2.3, 21 Jan 2013
+License:   __UNKNOWN__
+ puff.c is a simple inflate written to be an unambiguous way to specify the
+ deflate format.  It is not written for speed but rather simplicity.  As a
+ side benefit, this code might actually be useful when small code is more
+ important than speed, such as bootstrap applications.  For typical deflate
+ data, zlib's inflate() is about four times as fast as puff().  zlib's
+ inflate compiles to around 20K on my machine, whereas puff.c compiles to
+ around 4K on my machine (a PowerPC using GNU cc).  If the faster decode()
+ function here is used, then puff() is only twice as slow as zlib's
+ inflate().
+ .
+ All dynamically allocated memory comes from the stack.  The stack required
+ is less than 2K bytes.  This code is compatible with 16-bit int's and
+ assumes that long's are at least 32 bits.  puff.c uses the short data type,
+ assumed to be 16 bits, for arrays in order to conserve memory.  The code
+ works whether integers are stored big endian or little endian.
+ .
+ In the comments below are "Format notes" that describe the inflate process
+ and document some of the less obvious aspects of the format.  This source
+ code is meant to supplement RFC 1951, which formally describes the deflate
+ format:
+ .
+ http://www.zlib.org/rfc-deflate.html
+ .
+ Change history:
+ .
+ 1.0  10 Feb 2002     - First version
+ 1.1  17 Feb 2002     - Clarifications of some comments and notes
+ - Update puff() dest and source pointers on negative
+ errors to facilitate debugging deflators
+ - Remove longest from struct huffman -- not needed
+ - Simplify offs[] index in construct()
+ - Add input size and checking, using longjmp() to
+ maintain easy readability
+ - Use short data type for large arrays
+ - Use pointers instead of long to specify source and
+ destination sizes to avoid arbitrary 4 GB limits
+ 1.2  17 Mar 2002     - Add faster version of decode(), doubles speed (!),
+ but leave simple version for readability
+ - Make sure invalid distances detected if pointers
+ are 16 bits
+ - Fix fixed codes table error
+ - Provide a scanning mode for determining size of
+ uncompressed data
+ 1.3  20 Mar 2002     - Go back to lengths for puff() parameters [Gailly]
+ - Add a puff.h file for the interface
+ - Add braces in puff() for else do [Gailly]
+ - Use indexes instead of pointers for readability
+ 1.4  31 Mar 2002     - Simplify construct() code set check
+ - Fix some comments
+ - Add FIXLCODES #define
+ 1.5   6 Apr 2002     - Minor comment fixes
+ 1.6   7 Aug 2002     - Minor format changes
+ 1.7   3 Mar 2003     - Added test code for distribution
+ - Added zlib-like license
+ 1.8   9 Jan 2004     - Added some comments on no distance codes case
+ 1.9  21 Feb 2008     - Fix bug on 16-bit integer architectures [Pohland]
+ - Catch missing end-of-block symbol error
+ 2.0  25 Jul 2008     - Add #define to permit distance too far back
+ - Add option in TEST code for puff to write the data
+ - Add option in TEST code to skip input bytes
+ - Allow TEST code to read from piped stdin
+ 2.1   4 Apr 2010     - Avoid variable initialization for happier compilers
+ - Avoid unsigned comparisons for even happier compilers
+ 2.2  25 Apr 2010     - Fix bug in variable initializations [Oberhumer]
+ - Add const where appropriate [Oberhumer]
+
+Files:     compat/dlfcn.h
+Copyright: 1992-1996 Jens-Uwe Mager, Helios Software GmbH Not derived from licensed software.
+License:   __UNKNOWN__
+ Permission is granted to freely use, copy, modify, and redistribute
+ this software, provided that the author is not construed to be liable
+ for any results of using the software, alterations are clearly marked
+ as such, and this notice is not modified.
+ .
+ This is an unpublished work copyright (c) 1992 HELIOS Software GmbH
+ 30159 Hannover, Germany
+
+Files:     compat/zlib/msdos/Makefile.dj2
+Copyright: 1995-1998 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile, or to compile and test, type:
+ .
+ make -fmakefile.dj2;  make test -fmakefile.dj2
+ .
+ To install libz.a, zconf.h and zlib.h in the djgpp directories, type:
+ .
+ make install -fmakefile.dj2
+
+Files:     tests/tcltest.test
+Copyright: 1998-1999 Scriptics Corporation.
+           2000 Ajuba Solutions
+License:   __UNKNOWN__
+ Note that there are several places where the value of
+ tcltest::currentFailure is stored/reset in the -setup/-cleanup
+ of a test that has a body that runs [test] that will fail.
+ This is a workaround of using the same tcltest code that we are
+ testing to run the test itself.  Ditto on things like [verbose].
+ .
+ It would be better to have the -body of the tests run the tcltest
+ commands in a child interp so the [test] being tested would not
+ interfere with the [test] doing the testing.
+
+Files:     tests/httpd
+Copyright: 1997-1998 Sun Microsystems, Inc.
+           1999-2000 Scriptics Corporation
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ set httpLog 1
+ .
+ Do not use [info hostname].
+ Name resolution is often a problem on OSX; not focus of HTTP package anyway.
+ Also a problem on other platforms for http-4.14 (test with bad port number).
+
+Files:     library/safe.tcl
+Copyright: 1996-1997 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ The implementation is based on namespaces. These naming conventions are
+ followed:
+ Private procs starts with uppercase.
+ Public  procs are exported and starts with lowercase
+ .
+ Needed utilities package
+
+Files:     generic/regguts.h
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results.  The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ Environmental customization. It should not (I hope) be necessary to alter
+ the file you are now reading -- regcustom.h should handle it all, given
+ care here and elsewhere.
+
+Files:     compat/zlib/examples/enough.c
+Copyright: 2007-2018 Mark Adler Version 1.5  5 August 2018  Mark Adler
+License:   __UNKNOWN__
+ Version history:
+ 1.0   3 Jan 2007  First version (derived from codecount.c version 1.4)
+ 1.1   4 Jan 2007  Use faster incremental table usage computation
+ Prune examine() search on previously visited states
+ 1.2   5 Jan 2007  Comments clean up
+ As inflate does, decrease root for short codes
+ Refuse cases where inflate would increase root
+ 1.3  17 Feb 2008  Add argument for initial root table size
+
+Files:     generic/tclIO.h
+Copyright: 1995-1997 Sun Microsystems, Inc.
+           1998-2000 Ajuba Solutions
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Make sure that both EAGAIN and EWOULDBLOCK are defined. This does not
+ compile on systems where neither is defined. We want both defined so that
+ we can test safely for both. In the code we still have to test for both
+ because there may be systems on which both are defined and have different
+ values.
+
+Files:     compat/zlib/examples/gzlog.h
+Copyright: 2004-2012 Mark Adler, version 2.2, 14 Aug 2012
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ Version History:
+ 1.0  26 Nov 2004  First version
+ 2.0  25 Apr 2008  Complete redesign for recovery of interrupted operations
+ Interface changed slightly in that now path is a prefix
+
+Files:     pkgs/tdbc1.1.5/generic/tdbcDecls.h
+Copyright: 2008 Kevin B. Kenny.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ RCS: @(#) $Id$
+ .
+ !BEGIN!: Do not edit below this line.
+
+Files:     tests/remote.tcl
+Copyright: 1995-1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Initialize message delimitor
+ .
+ Initialize command array
+
+Files:     compat/zlib/contrib/ada/test.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 -- --
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ The program has a few aims.
+ 1. Test ZLib.Ada95 thick binding functionality.
+ 2. Show the example of use main functionality of the ZLib.Ada95 binding.
+ 3. Build this program automatically compile all ZLib.Ada95 packages under
+ GNAT Ada95 compiler.
+
+Files:     compat/zlib/contrib/dotzlib/LICENSE_1_0.txt
+Copyright: __NO_COPYRIGHT__ in: compat/zlib/contrib/dotzlib/LICENSE_1_0.txt
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person or organization
+ obtaining a copy of the software and accompanying documentation covered by
+ this license (the "Software") to use, reproduce, display, distribute,
+ execute, and transmit the Software, and to prepare derivative works of the
+ Software, and to permit third-parties to whom the Software is furnished to
+ do so, all subject to the following:
+ .
+ The copyright notices in the Software and this entire statement, including
+ the above license grant, this restriction and the following disclaimer,
+ must be included in all copies of the Software, in whole or in part, and
+ all derivative works of the Software, unless such copies or derivative
+ works are solely in the form of machine-executable object code generated by
+ a source language processor.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files:     compat/zlib/inflate.c
+Copyright: 1995-2022 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ Change history:
+ .
+ 1.2.beta0    24 Nov 2002
+ - First version -- complete rewrite of inflate to simplify code, avoid
+ creation of window when not needed, minimize use of window when it is
+ needed, make inffast.c even faster, implement gzip decoding, and to
+ improve code readability and style over the previous zlib inflate code
+ .
+ 1.2.beta1    25 Nov 2002
+ - Use pointers for available input and output checking in inffast.c
+ - Remove input and output counters in inffast.c
+
+Files:     tests/dict.test
+Copyright: 2003-2009 Donal K. Fellows See the file "license.terms" for information on usage and redistribution of
+License:   __UNKNOWN__
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+
+Files:     compat/zlib/win32/Makefile.gcc
+Copyright: 1995-2003 Jean-loup Gailly. For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ To compile, or to compile and test, type from the top level zlib directory:
+ .
+ make -fwin32/Makefile.gcc;  make test testdll -fwin32/Makefile.gcc
+ .
+ To install libz.a, zconf.h and zlib.h in the system directories, type:
+ .
+ make install -fwin32/Makefile.gcc
+
+Files:     compat/zlib/test/infcover.c
+Copyright: 2011-2016 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ to use, do: ./configure --cover && make cover
+
+Files:     generic/tclCkalloc.c
+Copyright: 1991-1994 The Regents of the University of California.
+           1994-1997 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ This code contributed by Karl Lehenbauer and Mark Diekhans
+
+Files:     compat/zlib/contrib/iostream2/zstream.h
+Copyright: 1997 Christian Michelsen Research AS Advanced Computing Fantoftvegen 38, 5036 BERGEN, Norway http://www.cmr.no
+License:   __UNKNOWN__
+ Permission to use, copy, modify, distribute and sell this software
+ and its documentation for any purpose is hereby granted without fee,
+ provided that the above copyright notice appear in all copies and
+ that both that copyright notice and this permission notice appear
+ in supporting documentation.  Christian Michelsen Research AS makes no
+ representations about the suitability of this software for any
+ purpose.  It is provided "as is" without express or implied warranty.
+
+Files:     compat/zlib/contrib/puff/puff.h
+Copyright: 2002-2013 Mark Adler, version 2.3, 21 Jan 2013
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ See puff.c for purpose and usage.
+
+Files:     compat/zlib/examples/zran.c
+Copyright: 2005-2018 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h Version 1.2  14 Oct 2018  Mark Adler
+License:   __UNKNOWN__
+ Version History:
+ 1.0  29 May 2005  First version
+ 1.1  29 Sep 2012  Fix memory reallocation error
+ 1.2  14 Oct 2018  Handle gzip streams with multiple members
+ Add a header file to facilitate usage in applications
+
+Files:     tests/thread.test
+Copyright: 1996 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+           2006-2008 Joe Mistachkin.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ when thread::release is used, -wait is passed in order allow the thread to
+ be fully finalized, which avoids valgrind "still reachable" reports.
+
+Files:     generic/rege_dfa.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results.  The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation
+ of software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ - longest - longest-preferred matching engine
+ ^ static chr *longest(struct vars *, struct dfa *, chr *, chr *, int *);
+
+Files:     generic/tclNamesp.c
+Copyright: 1993-1997 Lucent Technologies.
+           1997 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+           2002-2005 Donal K. Fellows.
+           2006 Neil Madden. Contributions from Don Porter, NIST, 2007. (not subject to US copyright)
+License:   __UNKNOWN__
+ Originally implemented by
+ Michael J. McLennan
+ Bell Labs Innovations for Lucent Technologies
+ mmclennan@lucent.com
+ .
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+
+Files:     compat/zlib/contrib/ada/read.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 -- --
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ Test/demo program for the generic read interface.
+
+Files:     compat/zlib/infback.c
+Copyright: 1995-2022 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ This code is largely copied from inflate.c.  Normally either infback.o or
+ inflate.o would be linked into an application--not both.  The interface
+ with inffast.c is retained so that optimized assembler-coded versions of
+
+Files:     generic/regfree.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results.  The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ You might think that this could be incorporated into regcomp.c, and that
+ would be a reasonable idea... except that this is a generic function (with
+ a generic name), applicable to all compiled REs regardless of the size of
+ their characters, whereas the stuff in regcomp.c gets compiled once per
+ character size.
+
+Files:     tools/man2html2.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ Global variables used by these scripts:
+
+Files:     generic/tclMain.c
+Copyright: 1988-1994 The Regents of the University of California.
+           1994-1997 Sun Microsystems, Inc.
+           2000 Ajuba Solutions.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ On Windows, this file needs to be compiled twice, once with UNICODE and
+
+Files:     unix/README
+Copyright: __NO_COPYRIGHT__ in: unix/README
+License:   __UNKNOWN__
+ --enable-threads	If this switch is set, Tcl will compile itself
+ with multithreading support.
+ --disable-load		If this switch is specified then Tcl will
+ configure itself not to allow dynamic loading,
+ even if your system appears to support it.
+ Normally you can leave this switch out and Tcl
+ will build itself for dynamic loading if your
+ system supports it.
+ --disable-dll-unloading	Disables support for the [unload] command even
+ on platforms that can support it. Meaningless
+ when Tcl is compiled with --disable-load.
+ --enable-shared		If this switch is specified, Tcl will compile
+ itself as a shared library if it can figure
+ out how to do that on this platform. This is
+ the default on platforms where we know how to
+ build shared libraries.
+ --disable-shared	If this switch is specified, Tcl will compile
+ itself as a static library.
+ --enable-symbols	Build with debugging symbols. By default
+ standard debugging symbols are used. You can
+ specify the value "mem" to include
+
+Files:     compat/zlib/zlib.3
+Copyright: 1995-2022 Jean-loup Gailly and Mark Adler .LP
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .LP
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .LP
+ .nr step 1 1
+ .IP \n[step]. 3
+ The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ .IP \n+[step].
+ Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ .IP \n+[step].
+ This notice may not be removed or altered from any source distribution.
+ .LP
+ Jean-loup Gailly        Mark Adler
+ .br
+ jloup@gzip.org          madler@alumni.caltech.edu
+ .LP
+ The deflate format used by
+ .I zlib
+ was defined by Phil Katz.
+ The deflate and
+ .I zlib
+ specifications were written by L. Peter Deutsch.
+ Thanks to all the people who reported problems and suggested various
+ improvements in
+ .IR zlib ;
+ who are too numerous to cite here.
+ .LP
+ UNIX manual page by R. P. C. Rodgers,
+ U.S. National Library of Medicine (rodgers@nlm.nih.gov).
+ .\" end of man page
+
+Files:     compat/zlib/examples/gzappend.c
+Copyright: 2003-2012 Mark Adler, version 1.2, 11 Oct 2012
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ Change history:
+ .
+ 1.0  19 Oct 2003     - First version
+ 1.1   4 Nov 2003     - Expand and clarify some comments and notes
+ - Add version and copyright to help
+ - Send help to stdout instead of stderr
+ - Add some preemptive typecasts
+ - Add L to constants in lseek() calls
+ - Remove some debugging information in error messages
+
+Files:     win/tclWinSerial.c
+Copyright: 1999 Scriptics Corp.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Serial functionality implemented by Rolf.Schroedter@dlr.de
+
+Files:     pkgs/thread2.8.8/tests/French.txt
+Copyright: 1999 The Internet Dictionary Project/Tyler Chambers http://www.june29.com/IDP/
+License:   __UNKNOWN__
+ This file is free to use and modify.  Thank you for using the IDP.
+ .
+ Approximately 1340 entries.  9/21/97
+ Approximately 1884 entries.  1/7/98
+ Appriximately 2160 entries.  3/8/98
+ Approximately 3040 entries.  8/18/98
+ Approximately 3250 entries. 2/19/99
+
+Files:     compat/zlib/contrib/ada/mtest.adb
+Copyright: 2002-2003 Dmitriy Anisimkov                 -- --
+License:   __UNKNOWN__
+ Open source license information is in the zlib.ads file.  --
+ .
+ Continuous test for ZLib multithreading. If the test would fail
+
+Files:     compat/zlib/zlib2ansi
+Copyright: __NO_COPYRIGHT__ in: compat/zlib/zlib2ansi
+License:   __UNKNOWN__
+ TODO
+ .
+ Assumes no function pointer parameters. unless they are typedefed.
+ Assumes no literal strings that look like function definitions
+ Assumes functions start at the beginning of a line
+
+Files:     tools/man2html.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ sarray -
+ .
+ Save an array to a file so that it can be sourced.
+ .
+ Arguments:
+ file -		Name of the output file
+ args -		Name of the arrays to save
+
+Files:     compat/zlib/contrib/minizip/crypt.h
+Copyright: 1998-2005 Gilles Vollant
+License:   __UNKNOWN__
+ This code is a modified version of crypting code in Infozip distribution
+ .
+ The encryption/decryption parts of this source code (as opposed to the
+ non-echoing password parts) were originally written in Europe.  The
+ whole source package can be freely distributed, including from the USA.
+ (Prior to January 2000, re-export from the US was a violation of US law.)
+ .
+ This encryption code is a direct transcription of the algorithm from
+ Roger Schlafly, described by Phil Katz in the file appnote.txt.  This
+ file (appnote.txt) is distributed with the PKZIP program (even in the
+ version without encryption capabilities).
+ .
+ If you don't need crypting in your application, just define symbols
+ NOCRYPT and NOUNCRYPT.
+ .
+ This code support the "Traditional PKWARE Encryption".
+ .
+ The new AES encryption added on Zip format by Winzip (see the page
+
+Files:     tools/mkdepend.tcl
+Copyright: 1998 Nat Pryce
+License:   __UNKNOWN__
+ Permission is hereby granted, without written agreement and without
+ license or royalty fees, to use, copy, modify, and distribute this
+ software and its documentation for any purpose, provided that the
+ above copyright notice and the following two paragraphs appear in
+ all copies of this software.
+ .
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+ SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF
+ THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE AUTHOR HAS BEEN ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ THE AUTHOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS"
+ BASIS, AND THE AUTHOR HAS NO OBLIGATION TO PROVIDE  MAINTENANCE, SUPPORT,
+ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Files:     generic/regc_cvec.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results. The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ Notes:
+
+Files:     compat/zlib/contrib/pascal/readme.txt
+Copyright: 1995-2003 Jean-loup Gailly and Mark Adler.
+           1998 Bob Dellaca.
+           2003 Cosmin Truta.
+License:   __UNKNOWN__
+ The example program is:
+ Copyright (C) 1995-2003 by Jean-loup Gailly.
+ Copyright (C) 1998,1999,2000 by Jacques Nomssi Nzali.
+ Copyright (C) 2003 by Cosmin Truta.
+ .
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files:     compat/zlib/contrib/inflate86/inffas86.c
+Copyright: 1995-2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+           2003 Chris Anderson <christop@charm.net> Please use the copyright conditions above.
+License:   __UNKNOWN__
+ Dec-29-2003 -- I added AMD64 inflate asm support.  This version is also
+ slightly quicker on x86 systems because, instead of using rep movsb to copy
+ data, it uses rep movsw, which moves data in 2-byte chunks instead of single
+
+Files:     compat/zlib/contrib/blast/blast.c
+Copyright: 2003-2013 Mark Adler For conditions of distribution and use, see copyright notice in blast.h version 1.3, 24 Aug 2013
+License:   __UNKNOWN__
+ blast.c decompresses data compressed by the PKWare Compression Library.
+ This function provides functionality similar to the explode() function of
+ the PKWare library, hence the name "blast".
+ .
+ This decompressor is based on the excellent format description provided by
+ Ben Rudiak-Gould in comp.compression on August 13, 2001.  Interestingly, the
+ example Ben provided in the post is incorrect.  The distance 110001 should
+ instead be 111000.  When corrected, the example byte stream becomes:
+ .
+ 00 04 82 24 25 8f 80 7f
+ .
+ which decompresses to "AIAIAIAIAIAIA" (without the quotes).
+ .
+ Change history:
+ .
+ 1.0  12 Feb 2003     - First version
+ 1.1  16 Feb 2003     - Fixed distance check for > 4 GB uncompressed data
+ 1.2  24 Oct 2012     - Add note about using binary mode in stdio
+ - Fix comparisons of differently signed integers
+ 1.3  24 Aug 2013     - Return unused input from blast()
+ - Fix test code to correctly report unused input
+ - Enable the provision of initial input to blast()
+
+Files:     generic/regc_lex.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results.  The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ scanning macros (know about v)
+
+Files:     generic/regcustom.h
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results. The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms - with or without
+ modification - are permitted for any purpose, provided that redistributions
+ in source form retain this entire copyright notice and indicate the origin
+ and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ Headers if any.
+
+Files:     compat/zlib/examples/gznorm.c
+Copyright: 2018 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h Version 1.0  7 Oct 2018  Mark Adler
+License:   __UNKNOWN__
+ gznorm takes a gzip stream, potentially containing multiple members, and
+ converts it to a gzip stream with a single member. In addition the gzip
+ header is normalized, removing the file name and time stamp, and setting the
+ other header contents (XFL, OS) to fixed values. gznorm does not recompress
+ the data, so it is fast, but no advantage is gained from the history that
+ could be available across member boundaries.
+
+Files:     compat/zlib/contrib/asm686/match.S
+Copyright: 1998-2007 Brian Raiter <breadbox@muppetlabs.com>
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files:     compat/zlib/crc32.c
+Copyright: 1995-2022 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ This interleaved implementation of a CRC makes use of pipelined multiple
+ arithmetic-logic units, commonly found in modern CPU cores. It is due to
+ Kadatch and Jenkins (2010). See doc/crc-doc.1.0.pdf in this distribution.
+ .
+ @(#) $Id$
+
+Files:     tools/index.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Global variables used by these scripts:
+ .
+ state -	state variable that controls action of text proc.
+ .
+ topics -	array indexed by (package,section,topic) with value
+ of topic ID.
+ .
+ keywords -	array indexed by keyword string with value of topic ID.
+ .
+ curID - 	current topic ID, starts at 0 and is incremented for
+ each new topic file.
+ .
+ curPkg -	current package name (e.g. Tcl).
+ .
+ curSect -	current section title (e.g. "Tcl Built-In Commands").
+ .
+ getPackages --
+ .
+ Generate a sorted list of package names from the topics array.
+ .
+ Arguments:
+ none.
+
+Files:     pkgs/tdbc1.1.5/tools/genStubs.tcl
+Copyright: 1998-1999 Scriptics Corporation. See the file "license.terms" for information on usage and redistribution of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+License:   __UNKNOWN__
+ SOURCE: tcl/tools/genStubs.tcl, revision 1.17
+ .
+ CHANGES:
+
+Files:     generic/tclStringRep.h
+Copyright: 1995-1997 Sun Microsystems, Inc.
+           1999 Scriptics Corporation.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ The following structure is the internal rep for a String object. It keeps
+ track of how much memory has been used and how much has been allocated for
+ the Unicode and UTF string to enable growing and shrinking of the UTF and
+ Unicode reps of the String object with fewer mallocs. To optimize string
+ length and indexing operations, this structure also stores the number of
+ characters (same of UTF and Unicode!) once that value has been computed.
+ .
+ Under normal configurations, what Tcl calls "Unicode" is actually UTF-16
+ restricted to the Basic Multilingual Plane (i.e. U+00000 to U+0FFFF). This
+
+Files:     generic/regc_color.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results. The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ Note that there are some incestuous relationships between this code and NFA
+ arc maintenance, which perhaps ought to be cleaned up sometime.
+
+Files:     compat/zlib/contrib/blast/blast.h
+Copyright: 2003-2013 Mark Adler version 1.3, 24 Aug 2013
+License:   __UNKNOWN__
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the author be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+ .
+ Mark Adler    madler@alumni.caltech.edu
+ .
+ blast() decompresses the PKWare Data Compression Library (DCL) compressed
+ format.  It provides the same functionality as the explode() function in
+ that library.  (Note: PKWare overused the "implode" verb, and the format
+ used by their library implode() function is completely different and
+ incompatible with the implode compression method supported by PKZIP.)
+ .
+ The binary mode for stdio functions should be used to assure that the
+ compressed data is not corrupted when read or written.  For example:
+ fopen(..., "rb") and fopen(..., "wb").
+
+Files:     tests/socket.test
+Copyright: 1994-1996 Sun Microsystems, Inc.
+           1998-2000 Ajuba Solutions.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Running socket tests with a remote server:
+
+Files:     generic/regc_nfa.c
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results. The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ One or two things that technically ought to be in here are actually in
+ color.c, thanks to some incestuous relationships in the color chains.
+
+Files:     tools/man2help.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ PASS 1
+
+Files:     compat/zlib/deflate.c
+Copyright: 1995-2022 Jean-loup Gailly and Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ ALGORITHM
+ .
+ The "deflation" process depends on being able to identify portions
+ of the input text which are identical to earlier input (within a
+ sliding window trailing behind the input currently being processed).
+ .
+ The most straightforward technique turns out to be the fastest for
+ most input files: try all possible matches and select the longest.
+ The key feature of this algorithm is that insertions into the string
+ dictionary are very simple and thus fast, and deletions are avoided
+ completely. Insertions are performed at each input character, whereas
+ string matches are performed only when the previous match ends. So it
+ is preferable to spend more time in matches to allow very fast string
+ insertions and avoid deletions. The matching algorithm for small
+ strings is inspired from that of Rabin & Karp. A brute force approach
+ is used to find longer strings when a small match has been found.
+ A similar algorithm is used in comic (by Jan-Mark Wams) and freeze
+ (by Leonid Broukhis).
+ A previous version of this file used a more sophisticated algorithm
+ (by Fiala and Greene) which is guaranteed to run in linear amortized
+ time, but has a larger average cost, uses more memory and is patented.
+ However the F&G algorithm may be faster for some highly redundant
+
+Files:     compat/zlib/contrib/infback9/inflate9.h
+Copyright: 1995-2003 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h
+License:   __UNKNOWN__
+ WARNING: this file should *not* be used by applications. It is
+ part of the implementation of the compression library and is
+ subject to change. Applications should only use zlib.h.
+ .
+ Possible inflate modes between inflate() calls
+
+Files:     generic/tclAlloc.c
+Copyright: 1983 Regents of the University of California.
+           1996-1997 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+License:   __UNKNOWN__
+ Portions contributed by Chris Kingsley, Jack Jansen and Ray Johnson.
+ .
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Windows and Unix use an alternative allocator when building with threads
+ that has significantly reduced lock contention.
+
+Files:     compat/zlib/examples/gun.c
+Copyright: 2003-2012 Mark Adler For conditions of distribution and use, see copyright notice in zlib.h Version 1.7  12 August 2012  Mark Adler
+License:   __UNKNOWN__
+ Version history:
+ 1.0  16 Feb 2003  First version for testing of inflateBack()
+ 1.1  21 Feb 2005  Decompress concatenated gzip streams
+ Remove use of "this" variable (C++ keyword)
+ Fix return value for in()
+ Improve allocation failure checking
+ Add typecasting for void * structures
+ Add -h option for command version and usage
+ Add a bunch of comments
+ 1.2  20 Mar 2005  Add Unix compress (LZW) decompression
+ Copy file attributes from input file to output file
+ 1.3  12 Jun 2005  Add casts for error messages [Oberhumer]
+ 1.4   8 Dec 2006  LZW decompression speed improvements
+ 1.5   9 Feb 2008  Avoid warning in latest version of gcc
+ 1.6  17 Jan 2010  Avoid signed/unsigned comparison warnings
+
+Files:     library/init.tcl
+Copyright: 1991-1993 The Regents of the University of California.
+           1994-1996 Sun Microsystems, Inc.
+           1998-1999 Scriptics Corporation.
+           2004 Kevin B. Kenny.
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution
+ of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ This test intentionally written in pre-7.5 Tcl
+
+Files:     tools/man2html1.tcl
+Copyright: 1996 Sun Microsystems, Inc.
+License:   __UNKNOWN__
+ Global variables used by these scripts:
+ .
+ state -	state variable that controls action of text proc.
+ .
+ curFile -	tail of current man page.
+ .
+ file -	file pointer; for both xref.tcl and contents.html
+
+Files:     generic/tclPkgConfig.c
+Copyright: 2002 Andreas Kupries <andreas_kupries@users.sourceforge.net>
+License:   __UNKNOWN__
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Note, the definitions in this module are influenced by the following C
+ preprocessor macros:
+
+Files:     generic/regex.h
+Copyright: 1998-1999 Henry Spencer.
+License:   __UNKNOWN__
+ Development of this software was funded, in part, by Cray Research Inc.,
+ UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics
+ Corporation, none of whom are responsible for the results. The author
+ thanks all of them.
+ .
+ Redistribution and use in source and binary forms -- with or without
+ modification -- are permitted for any purpose, provided that
+ redistributions in source form retain this entire copyright notice and
+ indicate the origin and nature of any modifications.
+ .
+ I'd appreciate being given credit for this package in the documentation of
+ software which uses it, but that is not a requirement.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL
+ HENRY SPENCER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ Prototypes etc. marked with "^" within comments get gathered up (and
+ possibly edited) by the regfwd program and inserted near the bottom of this
+ file.
+ .
+ We offer the option of declaring one wide-character version of the RE
+
+Files:     compat/zlib/contrib/minizip/tinydir.h
+Copyright: 2013-2021 tinydir authors: - Cong Xu - Lautis Sun - Baudouin Feildel - Andargor <andargor@yahoo.com>
+License:   BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this
+ list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files:     unix/tclUnixFCmd.c
+Copyright: 1988-1994 The Regents of the University of California.
+           1996-1998 Sun Microsystems, Inc.
+License:   BSD-3-Clause
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ Portions of this code were derived from NetBSD source code which has the
+ following copyright notice:
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ 1. Redistributions of source code must retain the above copyright notice,
+ this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors may
+ be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ DAMAGE.
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
+
+Files:     generic/tclDate.c
+Copyright: 1984-2018 Free Software Foundation, Inc.
+License:   GPL-3.0+ with unknown exception *** check multiple exceptions ***
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ As a special exception, you may create a larger work that contains
+ part or all of the Bison parser skeleton and distribute that work
+ under terms of your choice, so long as that work isn't itself a
+ parser generator using the skeleton or a modified version thereof
+ as a parser skeleton.  Alternatively, if you modify or redistribute
+ the parser skeleton itself, you may (at your option) remove this
+ special exception, which will cause the skeleton and the resulting
+ Bison output files to be licensed under the GNU General Public
+ License without this special exception.
+ .
+ This special exception was added by the Free Software Foundation in
+ version 2.2 of Bison.
+ .
+ C LALR(1) parser skeleton written by Richard Stallman, by
+ simplifying the original so-called "semantic" parser.
+ .
+ All symbols defined below should begin with yy or YY, to avoid
+ infringing on user name space.  This should be done even for local
+ variables, as they might otherwise be expanded by user macros.
+ There are some unavoidable exceptions within include files to
+ define necessary library symbols; they are noted "INFRINGES ON
+ USER NAME SPACE" below.
+ .
+ Identify Bison output.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     compat/zlib/contrib/ada/zlib.ads
+Copyright: 2002-2004 Dmitriy Anisimkov                   -- --
+License:   __UNKNOWN__ with unknown exception *** check multiple exceptions ***
+ This library is free software; you can redistribute it and/or modify    --
+ it under the terms of the GNU General Public License as published by    --
+ the Free Software Foundation; either version 2 of the License, or (at   --
+ your option) any later version.                                         --
+ --
+ This library is distributed in the hope that it will be useful, but     --
+ WITHOUT ANY WARRANTY; without even the implied warranty of              --
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU       --
+ General Public License for more details.                                --
+ --
+ You should have received a copy of the GNU General Public License       --
+ along with this library; if not, write to the Free Software Foundation, --
+ Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.          --
+ --
+ As a special exception, if other files instantiate generics from this   --
+ unit, or you link this unit with other files to produce an executable,  --
+ this  unit  does not  by itself cause  the resulting executable to be   --
+ covered by the GNU General Public License. This exception does not      --
+ however invalidate any other reasons why the executable file  might be  --
+ covered by the  GNU Public License.                                     --
+ .
+ The FSF address in the above text is the old one.
+
+Files:     generic/tclAssembly.c
+Copyright: 2010 Kevin B. Kenny.
+           2010 Ozgur Dogan Ugurlu.
+License:   __UNKNOWN__ with unknown exception *** check multiple exceptions ***
+ See the file "license.terms" for information on usage and redistribution of
+ this file, and for a DISCLAIMER OF ALL WARRANTIES.
+ .
+ -
+ - THINGS TO DO:
+ - More instructions:
+ -   done - alternate exit point (affects stack and exception range checking)
+ -   break and continue - if exception ranges can be sorted out.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         macosx/Tcl-Info.plist.in
+#         macosx/Tclsh-Info.plist.in
+#         win/tclsh.exe.manifest.in
+#         pkgs/itcl4.2.3/.project
+#         pkgs/thread2.8.8/tcl/phttpd/index.htm
+#         compat/zlib/treebuild.xml
+#         compat/zlib/qnx/package.qpg
+#         compat/zlib/examples/zlib_how.html
+#         compat/zlib/contrib/vstudio/vc9/testzlib.vcproj
+#         compat/zlib/contrib/vstudio/vc9/testzlibdll.vcproj
+#         compat/zlib/contrib/vstudio/vc9/miniunz.vcproj
+#         compat/zlib/contrib/vstudio/vc9/zlibvc.vcproj
+#         compat/zlib/contrib/vstudio/vc9/minizip.vcproj
+#         compat/zlib/contrib/vstudio/vc9/zlibstat.vcproj
+#         compat/zlib/contrib/dotzlib/DotZLib/DotZLib.csproj
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         tests/clock.test
+#         pkgs/sqlite3.40.0/compat/sqlite3/sqlite3.c
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: license.terms
+ This software is copyrighted by the Regents of the University of
+ California, Sun Microsystems, Inc., Scriptics Corporation, ActiveState
+ Corporation and other parties.  The following terms apply to all files
+ associated with the software unless explicitly disclaimed in
+ individual files.
+ .
+ The authors hereby grant permission to use, copy, modify, distribute,
+ and license this software and its documentation for any purpose, provided
+ that existing copyright notices are retained in all copies and that this
+ notice is included verbatim in any distributions. No written agreement,
+ license, or royalty fee is required for any of the authorized uses.
+ Modifications to this software may be copyrighted by their authors
+ and need not follow the licensing terms described here, provided that
+ the new terms are clearly indicated on the first page of each file where
+ they apply.
+ .
+ IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+ FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+ DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+ .
+ THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  THIS SOFTWARE
+ IS PROVIDED ON AN "AS IS" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE
+ NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
+ MODIFICATIONS.
+ .
+ GOVERNMENT USE: If you are acquiring this software on behalf of the
+ U.S. government, the Government shall have only "Restricted Rights"
+ in the software and related documentation as defined in the Federal
+ Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2).  If you
+ are acquiring the software on behalf of the Department of Defense, the
+ software shall be classified as "Commercial Computer Software" and the
+ Government shall have only "Restricted Rights" as defined in Clause
+ 252.227-7014 (b) (3) of DFARs.  Notwithstanding the foregoing, the
+ authors grant the U.S. Government and others acting in its behalf
+ permission to use and distribute the software in accordance with the
+ terms specified in this license.

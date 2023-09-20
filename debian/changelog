@@ -1,0 +1,6 @@
+tcl (8.6.13-1) mantic; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Jackson Hansen <madjack971@bsdmail.com>  Tue, 19 Sep 2023 22:16:03 -0700
